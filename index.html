@@ -3,179 +3,90 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Немецкий по лекциям</title>
+<title>Немецкий по лекциям (Рус → Нем)</title>
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f7f7f7;
-  }
-  header {
-    background: #4caf50;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  nav {
-    display: flex;
-    overflow-x: auto;
-    background: #333;
-  }
-  nav button {
-    padding: 0.8rem 1rem;
-    margin: 2px;
-    color: white;
-    background: #333;
-    border: none;
-    cursor: pointer;
-    flex: 0 0 auto;
-    min-width: 100px;
-    white-space: nowrap;
-  }
-  nav button.active {
-    background: #4caf50;
-  }
-  main {
-    padding: 1rem;
-    max-width: 600px;
-    margin: auto;
-  }
-  .category {
-    margin-bottom: 2rem;
-  }
-  .category h2 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.1rem;
-  }
-  .word {
-    background: white;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: background 0.3s, transform 0.2s;
-    display: flex;
-    flex-direction: column;
-  }
-  .word.learned {
-    background: #d3ffd3;
-    transform: scale(1.02);
-  }
-  .word h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .examples p {
-    margin: 0.3rem 0;
-    font-size: 0.9rem;
-  }
-  .translation,
-  .word-translation {
-    display: none;
-    color: #555;
-  }
-  .controls {
-    margin-top: 0.5rem;
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-  .controls button {
-    flex: 1;
-    padding: 0.4rem;
-    font-size: 0.8rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background: #4caf50;
-    color: white;
-    transition: background 0.2s;
-  }
-  .controls button:hover {
-    background: #45a049;
-  }
-  .show-translation {
-    cursor: pointer;
-    color: #333;
-    text-decoration: underline;
-    transition: color 0.3s;
-    margin-left: 0.5rem;
-  }
-  .select-word {
-    margin-right: 0.5rem;
-  }
-  #study-bar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: #4caf50;
-    color: white;
-    padding: 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
-  }
-  #study-bar button {
-    background: white;
-    color: #4caf50;
-    border-radius: 5px;
-    padding: 0.3rem 0.5rem;
-    font-weight: bold;
-  }
-  #study-mode {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    z-index: 1001;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    text-align: center;
-  }
-  #study-word {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  #study-translation {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    color: #555;
-  }
-  #study-buttons button {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    margin: 0.3rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  #study-buttons .known { background: #4caf50; color: white; }
-  #study-buttons .unknown { background: #f44336; color: white; }
-  @media (max-width: 480px) {
-    nav button { font-size: 0.7rem; padding: 0.5rem; min-width: 80px; }
-    #study-word { font-size: 1.5rem; }
-    #study-translation { font-size: 1.2rem; }
-  }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+header { background: #4caf50; color: white; padding: 1rem; text-align: center; }
+nav { display: flex; overflow-x: auto; background: #333; }
+nav button { padding: 0.8rem 1rem; margin: 2px; color: white; background: #333; border: none; cursor: pointer; flex: 0 0 auto; min-width: 100px; white-space: nowrap; }
+nav button.active { background: #4caf50; }
+main { padding: 1rem; max-width: 600px; margin: auto; }
+#lecture-info { margin-bottom: 1rem; font-weight: bold; }
+.search-bar { margin-bottom: 1rem; }
+.search-bar input { width: 100%; padding: 0.5rem; font-size: 1rem; border-radius: 5px; border: 1px solid #ccc; }
+.category { margin-bottom: 2rem; }
+.category h2 { margin: 0 0 0.5rem 0; font-size: 1.1rem; }
+.word { background: white; margin-bottom: 1rem; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: background 0.3s, transform 0.2s; display: flex; flex-direction: column; cursor: pointer; }
+.word.learned { background: #d3ffd3; transform: scale(1.02); }
+.word h3 { margin: 0 0 0.5rem 0; font-size: 1rem; display: flex; align-items: center; justify-content: space-between; }
+.examples p { margin: 0.3rem 0; font-size: 0.9rem; display: flex; align-items: center; justify-content: space-between; }
+.select-word { margin-right: 0.5rem; }
+.mark-learned-btn { background: #4caf50; color: white; border: none; border-radius: 5px; padding: 0.3rem 0.5rem; cursor: pointer; font-size: 0.8rem; margin-left: 0.5rem; }
+.speak-word-btn { background: #fff; border: 1px solid #4caf50; border-radius: 5px; padding: 0.2rem 0.4rem; margin-left: 5px; cursor: pointer; color: #4caf50; }
+#study-bar { position: fixed; bottom: 0; width: 100%; background: #4caf50; color: white; padding: 0.5rem; display: flex; justify-content: space-between; align-items: center; z-index: 1000; }
+#study-bar button { background: white; color: #4caf50; border-radius: 5px; padding: 0.3rem 0.5rem; font-weight: bold; }
+
+#study-mode {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255,255,255,0.95);
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.study-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+#progress { font-size: 0.9rem; color: #555; margin-bottom: 1rem; }
+#study-word { font-size: 1.8rem; font-weight: bold; margin-bottom: 1rem; color: #4caf50; }
+
+#study-input { width: 100%; padding: 0.7rem; font-size: 1.2rem; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 0.5rem; }
+.buttons-row button { padding: 0.5rem 1rem; font-size: 1rem; margin: 0.3rem; border-radius: 8px; border: none; cursor: pointer; transition: transform 0.1s; }
+.buttons-row button:hover { transform: scale(1.05); }
+#check-result { font-weight: bold; margin-top: 0.5rem; min-height: 1.2em; }
+#study-translation { font-style: italic; color: #555; margin-top: 0.5rem; display: none; }
+
+.exit-btn { margin-top: 1rem; padding: 0.5rem 1rem; border-radius: 8px; background: #999; color: white; border: none; cursor: pointer; }
+.exit-btn:hover { background: #666; }
+
+.hint { margin: 0.5rem 0; font-size: 0.9rem; color: #555; text-align: left; }
+.hint span { display: inline-block; background: #eee; padding: 0.2rem 0.4rem; margin-right: 0.3rem; border-radius: 3px; cursor: pointer; }
+
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+
+@media (max-width: 480px) {
+  nav button { font-size: 0.7rem; padding: 0.5rem; min-width: 80px; }
+  #study-word { font-size: 1.5rem; }
+  #study-input { width: 80%; }
+}
 </style>
 </head>
 <body>
 
 <header>
-  <h1>Немецкий по лекциям</h1>
+  <h1>Немецкий по лекциям (Рус → Нем)</h1>
 </header>
 
 <nav></nav>
-<main id="content"></main>
+<main id="content">
+  <div id="lecture-info"></div>
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Поиск слова...">
+  </div>
+</main>
 
 <div id="study-bar">
   <span id="selected-count">Выбрано слов: 0</span>
@@ -183,20 +94,38 @@
 </div>
 
 <div id="study-mode">
-  <div id="study-word"></div>
-  <div id="study-translation"></div>
-  <div id="study-buttons">
-    <button class="known">Знаю ✅</button>
-    <button class="unknown">Не знаю ❌</button>
+  <div class="study-card">
+    <div id="progress">Слово 1 из 1</div>
+
+    <div id="writing-step">
+      <div id="study-word"></div>
+      <input type="text" id="study-input" placeholder="Напиши немецкое слово или предложение">
+      <div class="hint">
+        Вставьте немецкие буквы: 
+        <span onclick="Study.insertChar('ä')">ä</span>
+        <span onclick="Study.insertChar('ö')">ö</span>
+        <span onclick="Study.insertChar('ü')">ü</span>
+        <span onclick="Study.insertChar('ß')">ß</span>
+      </div>
+      <div class="buttons-row">
+        <button id="check-btn">Проверить</button>
+        <button id="show-translation">Показать ответ</button>
+        <button id="speak-btn">🔊</button>
+      </div>
+      <div id="check-result"></div>
+      <div id="study-translation"></div>
+      <button id="next-btn" style="display:none; margin-top:10px;">Далее</button>
+    </div>
+
+    <button id="exit-study" class="exit-btn">Выйти</button>
   </div>
-  <button id="exit-study" style="margin-top: 1rem;">Выйти из режима</button>
 </div>
 
 <script>
 let lectures = {};
 let learned = JSON.parse(localStorage.getItem("learnedWords")) || [];
 let studyList = [];
-let currentStudyIndex = 0;
+let currentUtterance = null;
 
 const content = document.getElementById("content");
 const nav = document.querySelector("nav");
@@ -204,9 +133,17 @@ const selectedCount = document.getElementById("selected-count");
 const startStudyBtn = document.getElementById("start-study");
 const studyMode = document.getElementById("study-mode");
 const studyWordEl = document.getElementById("study-word");
+const studyInput = document.getElementById("study-input");
+const checkBtn = document.getElementById("check-btn");
+const checkResult = document.getElementById("check-result");
 const studyTranslationEl = document.getElementById("study-translation");
+const showTranslationBtn = document.getElementById("show-translation");
 const exitStudyBtn = document.getElementById("exit-study");
+const progressEl = document.getElementById("progress");
+const nextBtn = document.getElementById("next-btn");
+const speakBtn = document.getElementById("speak-btn");
 
+// ----------------- Инициализация лекций -----------------
 fetch("./lectures.json")
   .then(res => res.json())
   .then(data => { lectures = data; initApp(); })
@@ -228,107 +165,111 @@ function initApp() {
   });
 }
 
-function speak(text) {
-  if ('speechSynthesis' in window) {
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = "de-DE";
-    speechSynthesis.speak(utter);
-  }
-}
-
-function speakExamples(examples) {
-  examples.forEach(ex => speak(ex.de));
-}
-
+function capitalize(str) { return str.charAt(0).toUpperCase() + str.slice(1); }
 function getLearnedCount(lectureNum, category) {
   const words = lectures[lectureNum][category] || [];
   return words.filter((_, i) => learned.includes(`${lectureNum}-${category}-${i}`)).length;
 }
 
+// ----------------- Показ лекции -----------------
 function showLecture(lectureNumber) {
-  content.innerHTML = "";
+  content.innerHTML = '<div id="lecture-info"></div><div class="search-bar"><input type="text" id="search-input" placeholder="Поиск слова..."></div>';
   studyList = [];
   updateSelectedCount();
+  let totalWords = 0;
+  let totalLearned = 0;
+  let globalIndex = 1;
 
   const lecture = lectures[lectureNumber];
   Object.keys(lecture).forEach(cat => {
     const words = lecture[cat];
     if (!words || words.length === 0) return;
 
-    const countLearned = getLearnedCount(lectureNumber, cat);
     const catDiv = document.createElement("div");
     catDiv.classList.add("category");
-    catDiv.innerHTML = `<h2>${capitalize(cat)} (${words.length} слов) - выучено ${countLearned}/${words.length} (${Math.round((countLearned/words.length)*100)}%)</h2>`;
+
+    const countLearned = getLearnedCount(lectureNumber, cat);
+    totalWords += words.length;
+    totalLearned += countLearned;
+
+    catDiv.innerHTML = `<h2>${capitalize(cat)} (${words.length} слов) - выучено ${countLearned}/${words.length}</h2>`;
 
     words.forEach((item, index) => {
       const id = `${lectureNumber}-${cat}-${index}`;
       const div = document.createElement("div");
       div.classList.add("word");
       if (learned.includes(id)) div.classList.add("learned");
+      div.dataset.wordText = item.word;
 
       div.innerHTML = `
         <h3>
-          <input type="checkbox" class="select-word" data-id="${id}" data-word='${JSON.stringify(item)}'>
-          ${index + 1}. ${item.word} 
-          <span class="show-translation">Показать перевод</span>
-          <span class="word-translation">${item.translation}</span>
+          <div>
+            ${globalIndex++}. 
+            <input type="checkbox" class="select-word" data-id="${id}" data-word='${JSON.stringify(item)}'> 
+            ${item.word}
+            <button class="speak-word-btn" title="Прослушать">🔊</button>
+            <span class="word-translation">${item.translation}</span>
+          </div>
+          <button class="mark-learned-btn">${learned.includes(id) ? '❌ Снять отметку' : '✅ Выучил'}</button>
         </h3>
         <div class="examples">
-          ${item.examples.map(ex => `<p>${ex.de} → <span class="translation">${ex.ru}</span></p>`).join("")}
-        </div>
-        <div class="controls">
-          <button class="speak-word">🔊 Слово</button>
-          <button class="speak-examples">🔊 Примеры</button>
-          <button class="mark-learned">${learned.includes(id) ? "❌ Снять отметку" : "✅ Выучил"}</button>
+          ${item.examples.map(ex => `<p>${ex.ru} → <span class="translation">${ex.de}</span> <button class="speak-word-btn" title="Прослушать пример">🔊</button></p>`).join('')}
         </div>
       `;
 
-      div.querySelector(".show-translation").addEventListener("click", () => {
-        const wordTrans = div.querySelector(".word-translation");
-        wordTrans.style.display = wordTrans.style.display === "none" ? "inline" : "none";
-        div.querySelectorAll(".translation").forEach(t => {
-          t.style.display = t.style.display === "none" ? "inline" : "none";
+      div.querySelector(".mark-learned-btn").addEventListener("click", e => {
+        e.stopPropagation();
+        toggleLearned(id, div);
+      });
+      div.querySelector(".select-word").addEventListener("change", e => toggleSelectWord(e));
+
+      // ----------------- Надёжная озвучка -----------------
+      div.querySelectorAll(".speak-word-btn").forEach(btn => {
+        btn.addEventListener("click", e => {
+          e.stopPropagation();
+          const p = btn.closest('p');
+          let text;
+          if(p){
+            const span = p.querySelector('.translation');
+            text = span ? span.textContent : p.textContent.replace(/→/g,'').trim();
+          } else {
+            text = item.word; // немецкое слово
+          }
+          speak(text);
         });
       });
-
-      div.querySelector(".speak-word").addEventListener("click", () => speak(item.word));
-      div.querySelector(".speak-examples").addEventListener("click", () => speakExamples(item.examples));
-
-      div.querySelector(".mark-learned").addEventListener("click", () =>
-        toggleLearned(id, lectureNumber, div, cat)
-      );
-
-      div.querySelector(".select-word").addEventListener("change", (e) => toggleSelectWord(e));
 
       catDiv.appendChild(div);
     });
 
     content.appendChild(catDiv);
   });
+
+  document.getElementById("lecture-info").textContent = `Всего слов: ${totalWords}, выучено: ${totalLearned}`;
+  document.getElementById("search-input").addEventListener("input", filterWords);
 }
 
-function toggleLearned(id, lectureNum, div, cat) {
+// ----------------- Остальные функции -----------------
+function toggleLearned(id, div) {
   const index = learned.indexOf(id);
   if (index === -1) {
     learned.push(id);
     div.classList.add("learned");
-    div.querySelector(".mark-learned").textContent = "❌ Снять отметку";
+    div.querySelector(".mark-learned-btn").textContent = '❌ Снять отметку';
   } else {
     learned.splice(index, 1);
     div.classList.remove("learned");
-    div.querySelector(".mark-learned").textContent = "✅ Выучил";
+    div.querySelector(".mark-learned-btn").textContent = '✅ Выучил';
   }
   localStorage.setItem("learnedWords", JSON.stringify(learned));
-  updateCategoryHeader(div.closest(".category"), lectureNum, cat);
 }
 
-function updateCategoryHeader(catDiv, lectureNum, cat) {
-  const words = lectures[lectureNum][cat];
-  const countLearned = getLearnedCount(lectureNum, cat);
-  catDiv.querySelector("h2").textContent = `${capitalize(cat)} (${words.length} слов) - выучено ${countLearned}/${words.length} (${Math.round((countLearned/words.length)*100)}%)`;
+function filterWords() {
+  const query = document.getElementById("search-input").value.toLowerCase();
+  document.querySelectorAll('.word').forEach(w => {
+    w.style.display = w.dataset.wordText.toLowerCase().includes(query) ? 'flex' : 'none';
+  });
 }
-
-function capitalize(str) { return str.charAt(0).toUpperCase() + str.slice(1); }
 
 function toggleSelectWord(e) {
   const checkbox = e.target;
@@ -336,7 +277,12 @@ function toggleSelectWord(e) {
   const wordData = JSON.parse(checkbox.dataset.word);
 
   if (checkbox.checked) {
-    studyList.push({id, word: wordData.word, translation: wordData.translation});
+    studyList.push({
+      id,
+      word: wordData.word,
+      translation: wordData.translation,
+      examples: wordData.examples || []
+    });
   } else {
     studyList = studyList.filter(w => w.id !== id);
   }
@@ -347,45 +293,112 @@ function updateSelectedCount() {
   selectedCount.textContent = `Выбрано слов: ${studyList.length}`;
 }
 
-startStudyBtn.addEventListener("click", () => {
-  if (studyList.length === 0) { alert("Выберите хотя бы одно слово"); return; }
-  currentStudyIndex = 0;
-  showStudyWord();
-  studyMode.style.display = "flex";
-});
-
-function showStudyWord() {
-  if (currentStudyIndex >= studyList.length) {
-    alert("Тренировка завершена!");
-    studyMode.style.display = "none";
-    studyList = [];
-    updateSelectedCount();
-    document.querySelectorAll(".select-word").forEach(cb => cb.checked = false);
-    return;
+// ----------------- Надёжная озвучка -----------------
+function speak(text) {
+  if(currentUtterance){
+    speechSynthesis.cancel();
+    currentUtterance = null;
   }
-  const w = studyList[currentStudyIndex];
-  studyWordEl.textContent = w.word;
-  studyTranslationEl.textContent = "";
+  if(!text) return;
+  currentUtterance = new SpeechSynthesisUtterance(text);
+  currentUtterance.lang = 'de-DE';
+  currentUtterance.onend = () => { currentUtterance = null; };
+  speechSynthesis.speak(currentUtterance);
 }
 
-document.querySelector(".known").addEventListener("click", () => {
-  const w = studyList[currentStudyIndex];
-  learned.push(w.id);
-  localStorage.setItem("learnedWords", JSON.stringify(learned));
-  currentStudyIndex++;
-  studyTranslationEl.textContent = w.translation;
-  setTimeout(showStudyWord, 500);
-});
+// ----------------- Модуль Study -----------------
+const Study = {
+  list: [],
+  index: 0,
+  init(list) {
+    if (!list.length) return alert("Выберите хотя бы одно слово");
+    this.list = list;
+    this.index = 0;
+    this.showStep();
+    studyMode.style.display = "flex";
+  },
+  current() { return this.list[this.index]; },
+  showStep() {
+    if (this.index >= this.list.length) return this.end();
+    const w = this.current();
+    if (w.examples && w.examples.length > 0) {
+      const ex = w.examples[Math.floor(Math.random() * w.examples.length)];
+      studyWordEl.textContent = ex.ru;          // русское отображение
+      studyTranslationEl.textContent = ex.de;   // немецкое для озвучки
+    } else {
+      studyWordEl.textContent = w.translation;
+      studyTranslationEl.textContent = w.word; // немецкое для озвучки
+    }
+    studyInput.value = '';
+    checkResult.textContent = '';
+    studyTranslationEl.style.display = 'none';
+    nextBtn.style.display = 'none';
+    progressEl.textContent = `Слово ${this.index + 1} из ${this.list.length}`;
+    studyInput.focus();
+  },
+  normalize(str) { return str.toLowerCase().replace(/[.,!?;:]/g,'').trim(); },
+  checkAnswer() {
+    const w = this.current();
+    const input = studyInput.value.trim();
+    const correct = studyTranslationEl.textContent;
+    const correctWords = correct.split(/\s+/).map(this.normalize);
+    const userWords = input.split(/\s+/).map(this.normalize);
+    const isCorrect = correctWords.every(word => userWords.includes(word));
 
-document.querySelector(".unknown").addEventListener("click", () => {
-  const w = studyList[currentStudyIndex];
-  studyTranslationEl.textContent = w.translation;
-  currentStudyIndex++;
-  setTimeout(showStudyWord, 1000);
-});
+    checkResult.textContent = isCorrect ? 'Верно!' : 'Неверно';
+    checkResult.style.color = isCorrect ? 'green' : 'red';
+    studyTranslationEl.style.display = 'block';
+    nextBtn.style.display = 'inline-block';
 
-exitStudyBtn.addEventListener("click", () => {
-  studyMode.style.display = "none";
+    if (isCorrect) {
+      this.markAsLearned(w.id);
+      speak(correct); // немецкий текст
+    }
+  },
+  next() { this.index++; this.showStep(); },
+  end() {
+    alert("Тренировка завершена!");
+    studyMode.style.display = "none";
+    this.list = [];
+    this.index = 0;
+    updateSelectedCount();
+    document.querySelectorAll(".select-word").forEach(cb => cb.checked = false);
+  },
+  markAsLearned(id) {
+    if (!learned.includes(id)) {
+      learned.push(id);
+      localStorage.setItem("learnedWords", JSON.stringify(learned));
+      document.querySelectorAll(`.select-word[data-id="${id}"]`).forEach(cb => {
+        cb.checked = false;
+        cb.closest('.word').classList.add('learned');
+        cb.closest('.word').querySelector(".mark-learned-btn").textContent = '❌ Снять отметку';
+      });
+    }
+  },
+  insertChar(char) {
+    const start = studyInput.selectionStart;
+    const end = studyInput.selectionEnd;
+    const text = studyInput.value;
+    studyInput.value = text.slice(0, start) + char + text.slice(end);
+    studyInput.focus();
+    studyInput.setSelectionRange(start + 1, start + 1);
+  }
+};
+
+// ----------------- События -----------------
+startStudyBtn.addEventListener("click", () => Study.init(studyList));
+checkBtn.addEventListener("click", () => Study.checkAnswer());
+nextBtn.addEventListener("click", () => Study.next());
+exitStudyBtn.addEventListener("click", () => { studyMode.style.display = "none"; });
+showTranslationBtn.addEventListener("click", () => { studyTranslationEl.style.display = 'block'; });
+speakBtn.addEventListener("click", () => {
+  const w = Study.current();
+  if(w.examples && w.examples.length > 0){
+    const ex = w.examples[Math.floor(Math.random() * w.examples.length)];
+    speak(ex.de);
+  } else {
+    speak(w.word);
+  }
 });
 </script>
 
