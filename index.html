@@ -67,6 +67,8 @@ main { padding: 1rem; max-width: 600px; margin: auto; }
 .hint { margin: 0.5rem 0; font-size: 0.9rem; color: #555; text-align: left; }
 .hint span { display: inline-block; background: #eee; padding: 0.2rem 0.4rem; margin-right: 0.3rem; border-radius: 3px; cursor: pointer; }
 
+.select-all-btns { margin-bottom: 0.5rem; }
+
 @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
 
 @media (max-width: 480px) {
@@ -198,8 +200,31 @@ function showLecture(lectureNumber) {
     totalWords += words.length;
     totalLearned += countLearned;
 
-    catDiv.innerHTML = `<h2>${capitalize(cat)} (${words.length} слов) - выучено ${countLearned}/${words.length}</h2>`;
+    catDiv.innerHTML += `<h2>${capitalize(cat)} (${words.length} слов) - выучено ${countLearned}/${words.length}</h2>`;
 
+    // Добавляем кнопки "Выбрать все / Снять все"
+    const selectAllDiv = document.createElement("div");
+    selectAllDiv.classList.add("select-all-btns");
+    const selectAllBtn = document.createElement("button");
+    selectAllBtn.textContent = "Выбрать все";
+    selectAllBtn.style.marginRight = "5px";
+    selectAllBtn.addEventListener("click", () => {
+      catDiv.querySelectorAll('.select-word').forEach(cb => { 
+        if(!cb.checked) { cb.checked = true; toggleSelectWord({ target: cb }); }
+      });
+    });
+    const deselectAllBtn = document.createElement("button");
+    deselectAllBtn.textContent = "Снять все";
+    deselectAllBtn.addEventListener("click", () => {
+      catDiv.querySelectorAll('.select-word').forEach(cb => { 
+        if(cb.checked) { cb.checked = false; toggleSelectWord({ target: cb }); }
+      });
+    });
+    selectAllDiv.appendChild(selectAllBtn);
+    selectAllDiv.appendChild(deselectAllBtn);
+    catDiv.appendChild(selectAllDiv);
+
+    // Добавляем все слова
     words.forEach((item, index) => {
       const id = `${lectureNumber}-${cat}-${index}`;
       const div = document.createElement("div");
@@ -227,6 +252,7 @@ function showLecture(lectureNumber) {
         e.stopPropagation();
         toggleLearned(id, div);
       });
+
       div.querySelector(".select-word").addEventListener("change", e => toggleSelectWord(e));
 
       div.querySelectorAll(".speak-word-btn").forEach(btn => {
