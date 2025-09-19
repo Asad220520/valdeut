@@ -1641,5 +1641,395 @@
         ]
       }
     ]
+  },
+  "11-12": {
+    "Глаголы": [
+      {
+        "word": "beginnen",
+        "translation": "начинать",
+        "examples": [
+          {
+            "de": "Ich beginne morgen einen neuen Job.",
+            "ru": "Я начинаю новую работу завтра."
+          }
+        ]
+      },
+      {
+        "word": "absolvieren",
+        "translation": "оканчивать",
+        "examples": [
+          {
+            "de": "Er wird im Sommer seine Ausbildung absolvieren.",
+            "ru": "Он завершит своё обучение летом."
+          }
+        ]
+      },
+      {
+        "word": "erwarten",
+        "translation": "ожидать",
+        "examples": [
+          {
+            "de": "Wir erwarten viele Gäste zur Feier.",
+            "ru": "Мы ожидаем много гостей на праздник."
+          }
+        ]
+      },
+      {
+        "word": "dauern",
+        "translation": "длиться",
+        "examples": [
+          {
+            "de": "Wie lange dauert der Film?",
+            "ru": "Как долго длится фильм?"
+          }
+        ]
+      },
+      {
+        "word": "aufhören",
+        "translation": "прекращать",
+        "examples": [
+          {
+            "de": "Wir müssen jetzt aufhören, sonst verpassen wir Bus.",
+            "ru": "Нам нужно сейчас прекратить, иначе мы опоздаем на автобус."
+          }
+        ]
+      },
+      {
+        "word": "kommen",
+        "translation": "приходить",
+        "examples": [
+          {
+            "de": "Wann kommst du nach Hause?",
+            "ru": "Когда ты придешь домой?"
+          }
+        ]
+      },
+      {
+        "word": "bleiben",
+        "translation": "оставаться",
+        "examples": [
+          {
+            "de": "Wie lange kannst du in Deutschland bleiben?",
+            "ru": "Как долго можешь остаться в Германии?"
+          }
+        ]
+      },
+      {
+        "word": "reisen",
+        "translation": "путешествовать",
+        "examples": [
+          {
+            "de": "Ich möchte gerne nach Japan reisen.",
+            "ru": "Я хотел бы поехать в Японию."
+          }
+        ]
+      },
+      {
+        "word": "rauskommen",
+        "translation": "выходить",
+        "examples": []
+      },
+      {
+        "word": "schwimmen",
+        "translation": "плавать",
+        "examples": [
+          {
+            "de": "Schwimmst du gern im Meer oder im Pool?",
+            "ru": "Ты любишь плавать в море или в бассейне?"
+          }
+        ]
+      },
+      {
+        "word": "laufen",
+        "translation": "бегать",
+        "examples": [
+          {
+            "de": "Ich laufe jeden Morgen im Park.",
+            "ru": "Я бегаю каждое утро в парке."
+          }
+        ]
+      },
+      {
+        "word": "umziehen",
+        "translation": "переезжать",
+        "examples": [
+          {
+            "de": "Wir ziehen nächsten Monat in eine neue Wohnung um.",
+            "ru": "Мы переезжаем в новую квартиру в следующем месяце."
+          }
+        ]
+      },
+      {
+        "word": "fliegen",
+        "translation": "летать",
+        "examples": [
+          {
+            "de": "Ich fliege im Sommer nach Berlin.",
+            "ru": "Я лечу летом в Германию."
+          }
+        ]
+      },
+      {
+        "word": "helfen",
+        "translation": "помогать",
+        "examples": [
+          {
+            "de": "Kannst du mir bitte helfen?",
+            "ru": "Можешь мне, пожалуйста, помочь?"
+          }
+        ]
+      },
+      {
+        "word": "spazieren gehen",
+        "translation": "гулять",
+        "examples": [
+          { "de": "Geht ihr gern spazieren?", "ru": "Вы любите гулять?" }
+        ]
+      },
+      {
+        "word": "liegen",
+        "translation": "лежать, находиться",
+        "examples": [
+          {
+            "de": "Berlin liegt in Deutschland.",
+            "ru": "Берлин находится в Германии."
+          }
+        ]
+      },
+      {
+        "word": "fahren",
+        "translation": "ехать",
+        "examples": [{ "de": "Fährst du nach Hause?", "ru": "Ты едешь домой?" }]
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "das Flugzeug",
+        "translation": "самолет",
+        "examples": [
+          {
+            "de": "Wir fliegen morgen mit dem Flugzeug nach Paris.",
+            "ru": "Мы летим завтра на самолёте в Париж."
+          }
+        ]
+      },
+      {
+        "word": "der Weg, die Wege",
+        "translation": "дорога, путь",
+        "examples": [
+          {
+            "de": "Der Weg zum Bahnhof ist ziemlich lang.",
+            "ru": "Путь до вокзала довольно длинный."
+          }
+        ]
+      },
+      {
+        "word": "der Zug, die Züge",
+        "translation": "поезд, поезда",
+        "examples": [
+          {
+            "de": "Wir fahren mit dem Zug nach Berlin.",
+            "ru": "Мы едем в Берлин на поезде."
+          }
+        ]
+      },
+      {
+        "word": "das Schiff",
+        "translation": "корабль",
+        "examples": [
+          {
+            "de": "Das Schiff ist sehr groß und modern.",
+            "ru": "Корабль очень большой и современный."
+          }
+        ]
+      },
+      {
+        "word": "das Ticket",
+        "translation": "билет",
+        "examples": [
+          {
+            "de": "Das Ticket für den Bus kostet zwei Euro.",
+            "ru": "Билет на автобус стоит два евро."
+          }
+        ]
+      },
+      {
+        "word": "das Fahrrad, die Fahrräder",
+        "translation": "велосипед",
+        "examples": [
+          {
+            "de": "Ich kann nicht Fahrrad fahren.",
+            "ru": "Я не умею кататься на велосипеде."
+          }
+        ]
+      },
+      {
+        "word": "der Führerschein",
+        "translation": "водительские права",
+        "examples": [
+          {
+            "de": "Seit wann hast du Föhrerschein?",
+            "ru": "Как долго у тебя водительские права?"
+          }
+        ]
+      },
+      {
+        "word": "die Verbindung",
+        "translation": "связь",
+        "examples": [
+          {
+            "de": "Die Verbindung zwischen Kirgisistan und Deutschland ist sehr gut.",
+            "ru": "Связь между Кыргызстан и Германией очень хорошее."
+          }
+        ]
+      },
+      {
+        "word": "das Fahrzeug",
+        "translation": "транспортное средство",
+        "examples": [
+          {
+            "de": "Auf der Straße stehen viele Fahrzeuge im Stau.",
+            "ru": "На улице в пробке стоят много транспортных средств."
+          }
+        ]
+      },
+      {
+        "word": "die U-Bahn",
+        "translation": "метро",
+        "examples": [
+          {
+            "de": "Ich fahre jeden Morgen mit der U-Bahn zur Arbeit.",
+            "ru": "Я каждое утро еду на работу на метро."
+          }
+        ]
+      },
+      {
+        "word": "die Richtung, die Richtungen",
+        "translation": "направление",
+        "examples": [
+          {
+            "de": "Kannst du mir die Richtung zeigen?",
+            "ru": "Ты можешь показать мне направление?"
+          }
+        ]
+      },
+      {
+        "word": "der Flug",
+        "translation": "полёт, рейс",
+        "examples": [
+          {
+            "de": "Der Flug nach Osch dauert eine Stunde.",
+            "ru": "Полёт до Ош длится час."
+          }
+        ]
+      },
+      {
+        "word": "der Fehler",
+        "translation": "ошибка",
+        "examples": [
+          {
+            "de": "Kannst du mir meinen Fehler erklären?",
+            "ru": "Можешь объяснить мне мою ошибку?"
+          }
+        ]
+      },
+      {
+        "word": "der Spickzettel",
+        "translation": "шпаргалка",
+        "examples": [
+          {
+            "de": "Du darfst Spickzettel nicht benutzen.",
+            "ru": "Ты не можешь использовать шпаргалки."
+          }
+        ]
+      },
+      {
+        "word": "LKW",
+        "translation": "грузовик",
+        "examples": [
+          {
+            "de": "Er fährt einen großen LKW.",
+            "ru": "Он водит большой грузовик."
+          }
+        ]
+      },
+      {
+        "word": "das Flugticket",
+        "translation": "авиабилет",
+        "examples": [
+          {
+            "de": "Das Flugticket kostet 300 Euro.",
+            "ru": "Билет на самолет стоит 300 евро."
+          }
+        ]
+      }
+    ],
+    "Фразы": [
+      {
+        "word": "ebenso",
+        "translation": "также",
+        "examples": [
+          {
+            "de": "Ich wünsche dir viel Glück, ebenso wünsche ich dir viel Erfolg.",
+            "ru": "Я желаю тебе удачи, также желаю тебе успеха."
+          }
+        ]
+      },
+      {
+        "word": "früher",
+        "translation": "раньше",
+        "examples": [
+          {
+            "de": "Ich stehe immer früher auf.",
+            "ru": "Я всегда встаю раньше."
+          }
+        ]
+      },
+      {
+        "word": "ab und zu",
+        "translation": "время от времени, иногда",
+        "examples": [
+          {
+            "de": "Ab und zu gehe ich ins Kino, aber nicht sehr oft.",
+            "ru": "Иногда я хожу в кино, но не очень часто."
+          }
+        ]
+      },
+      {
+        "word": "danach",
+        "translation": "затем, потом",
+        "examples": [
+          {
+            "de": "Wir gehen ins Kino und danach essen wir Pizza.",
+            "ru": "Мы идём в кино, а потом поедим пиццу."
+          }
+        ]
+      },
+      {
+        "word": "jetzt",
+        "translation": "сейчас",
+        "examples": [
+          {
+            "de": "Ich habe jetzt keine Zeit.",
+            "ru": "Сейчас у меня нет времени."
+          }
+        ]
+      },
+      {
+        "word": "also",
+        "translation": "итак",
+        "examples": [
+          {
+            "de": "Also, was machen wir jetzt?",
+            "ru": "Итак, что мы будем делать теперь?"
+          }
+        ]
+      },
+      {
+        "word": "vorher",
+        "translation": "прежде",
+        "examples": []
+      }
+    ]
   }
 }
