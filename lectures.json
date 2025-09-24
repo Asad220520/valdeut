@@ -1,4 +1,77 @@
 {
+  "personalpronomen": {
+    "Личные местоимения": [
+      { "word": "ich", "translation": "я", "examples": [] },
+      { "word": "du", "translation": "ты", "examples": [] },
+      { "word": "er", "translation": "он", "examples": [] },
+      { "word": "sie", "translation": "она", "examples": [] },
+      { "word": "es", "translation": "оно", "examples": [] },
+      { "word": "wir", "translation": "мы", "examples": [] },
+      { "word": "ihr", "translation": "вы (мн.ч.)", "examples": [] },
+      { "word": "sie", "translation": "они", "examples": [] },
+      { "word": "Sie", "translation": "Вы (вежливая форма)", "examples": [] }
+    ],
+    "Спряжение глаголов": [
+      {
+        "word": "machen",
+        "translation": "делать",
+        "forms": {
+          "ich": "mache",
+          "du": "machst",
+          "er/sie/es": "macht",
+          "wir": "machen",
+          "ihr": "macht",
+          "sie/Sie": "machen"
+        },
+        "examples": [
+          { "de": "Ich mache Hausaufgaben.", "ru": "Я делаю домашнее задание." }
+        ]
+      },
+      {
+        "word": "spielen",
+        "translation": "играть",
+        "forms": {
+          "ich": "spiele",
+          "du": "spielst",
+          "er/sie/es": "spielt",
+          "wir": "spielen",
+          "ihr": "spielt",
+          "sie/Sie": "spielen"
+        },
+        "examples": [
+          { "de": "Wir spielen Fußball.", "ru": "Мы играем в футбол." }
+        ]
+      },
+      {
+        "word": "wohnen",
+        "translation": "жить",
+        "forms": {
+          "ich": "wohne",
+          "du": "wohnst",
+          "er/sie/es": "wohnt",
+          "wir": "wohnen",
+          "ihr": "wohnt",
+          "sie/Sie": "wohnen"
+        },
+        "examples": [
+          { "de": "Ich wohne in Berlin.", "ru": "Я живу в Берлине." }
+        ]
+      },
+      {
+        "word": "lernen",
+        "translation": "учиться",
+        "forms": {
+          "ich": "lerne",
+          "du": "lernst",
+          "er/sie/es": "lernt",
+          "wir": "lernen",
+          "ihr": "lernt",
+          "sie/Sie": "lernen"
+        },
+        "examples": [{ "de": "Du lernst Deutsch.", "ru": "Ты учишь немецкий." }]
+      }
+    ]
+  },
   "1-2.0": {
     "Глаголы": [
       { "word": "machen", "translation": "делать", "examples": [] },
@@ -67,6 +140,148 @@
       },
       { "word": "Bis morgen", "translation": "до завтра", "examples": [] },
       { "word": "bis bald", "translation": "до скорого", "examples": [] }
+    ]
+  },
+  "0.1.wfragen_zeit_wetter": {
+    "W-Fragen": [
+      {
+        "word": "wer",
+        "translation": "кто",
+        "examples": [{ "de": "Wer kommt heute?", "ru": "Кто придёт сегодня?" }]
+      },
+      {
+        "word": "was",
+        "translation": "что",
+        "examples": [{ "de": "Was machst du?", "ru": "Что ты делаешь?" }]
+      },
+      {
+        "word": "wann",
+        "translation": "когда",
+        "examples": [
+          { "de": "Wann beginnt der Kurs?", "ru": "Когда начинается курс?" }
+        ]
+      },
+      {
+        "word": "wo",
+        "translation": "где",
+        "examples": [{ "de": "Wo wohnst du?", "ru": "Где ты живёшь?" }]
+      },
+      {
+        "word": "woher",
+        "translation": "откуда",
+        "examples": [{ "de": "Woher kommst du?", "ru": "Откуда ты?" }]
+      },
+      {
+        "word": "wohin",
+        "translation": "куда",
+        "examples": [{ "de": "Wohin gehst du?", "ru": "Куда ты идёшь?" }]
+      },
+      {
+        "word": "warum",
+        "translation": "почему",
+        "examples": [{ "de": "Warum bist du müde?", "ru": "Почему ты устал?" }]
+      },
+      {
+        "word": "wie",
+        "translation": "как",
+        "examples": [{ "de": "Wie geht es dir?", "ru": "Как у тебя дела?" }]
+      },
+      {
+        "word": "wieviel / wie viele",
+        "translation": "сколько",
+        "examples": [
+          { "de": "Wie viele Äpfel hast du?", "ru": "Сколько у тебя яблок?" }
+        ]
+      }
+    ],
+    "Дни недели": [
+      { "word": "der Montag", "translation": "понедельник", "examples": [] },
+      { "word": "der Dienstag", "translation": "вторник", "examples": [] },
+      { "word": "der Mittwoch", "translation": "среда", "examples": [] },
+      { "word": "der Donnerstag", "translation": "четверг", "examples": [] },
+      { "word": "der Freitag", "translation": "пятница", "examples": [] },
+      { "word": "der Samstag", "translation": "суббота", "examples": [] },
+      { "word": "der Sonntag", "translation": "воскресенье", "examples": [] }
+    ],
+    "Месяцы": [
+      { "word": "der Januar", "translation": "январь", "examples": [] },
+      { "word": "der Februar", "translation": "февраль", "examples": [] },
+      { "word": "der März", "translation": "март", "examples": [] },
+      { "word": "der April", "translation": "апрель", "examples": [] },
+      { "word": "der Mai", "translation": "май", "examples": [] },
+      { "word": "der Juni", "translation": "июнь", "examples": [] },
+      { "word": "der Juli", "translation": "июль", "examples": [] },
+      { "word": "der August", "translation": "август", "examples": [] },
+      { "word": "der September", "translation": "сентябрь", "examples": [] },
+      { "word": "der Oktober", "translation": "октябрь", "examples": [] },
+      { "word": "der November", "translation": "ноябрь", "examples": [] },
+      { "word": "der Dezember", "translation": "декабрь", "examples": [] }
+    ],
+    "Время": [
+      { "word": "die Stunde", "translation": "час", "examples": [] },
+      { "word": "die Minute", "translation": "минута", "examples": [] },
+      { "word": "die Sekunde", "translation": "секунда", "examples": [] },
+      { "word": "heute", "translation": "сегодня", "examples": [] },
+      { "word": "gestern", "translation": "вчера", "examples": [] },
+      { "word": "morgen", "translation": "завтра", "examples": [] },
+      { "word": "jetzt", "translation": "сейчас", "examples": [] },
+      { "word": "später", "translation": "позже", "examples": [] },
+      { "word": "früh", "translation": "рано", "examples": [] },
+      { "word": "spät", "translation": "поздно", "examples": [] }
+    ],
+    "Времена года": [
+      {
+        "word": "der Winter",
+        "translation": "зима",
+        "examples": [
+          { "de": "Im Winter schneit es oft.", "ru": "Зимой часто идёт снег." }
+        ]
+      },
+      {
+        "word": "der Frühling",
+        "translation": "весна",
+        "examples": [
+          {
+            "de": "Im Frühling blühen die Blumen.",
+            "ru": "Весной цветут цветы."
+          }
+        ]
+      },
+      {
+        "word": "der Sommer",
+        "translation": "лето",
+        "examples": [{ "de": "Im Sommer ist es warm.", "ru": "Летом тепло." }]
+      },
+      {
+        "word": "der Herbst",
+        "translation": "осень",
+        "examples": [
+          {
+            "de": "Im Herbst fallen die Blätter.",
+            "ru": "Осенью опадают листья."
+          }
+        ]
+      }
+    ],
+    "Погода": [
+      { "word": "die Sonne", "translation": "солнце", "examples": [] },
+      { "word": "der Regen", "translation": "дождь", "examples": [] },
+      { "word": "der Schnee", "translation": "снег", "examples": [] },
+      { "word": "die Wolke", "translation": "облако", "examples": [] },
+      { "word": "der Wind", "translation": "ветер", "examples": [] },
+      { "word": "heiß", "translation": "жарко", "examples": [] },
+      { "word": "kalt", "translation": "холодно", "examples": [] },
+      { "word": "warm", "translation": "тепло", "examples": [] },
+      {
+        "word": "schönes Wetter",
+        "translation": "хорошая погода",
+        "examples": []
+      },
+      {
+        "word": "schlechtes Wetter",
+        "translation": "плохая погода",
+        "examples": []
+      }
     ]
   },
   "1-2": {
@@ -425,6 +640,104 @@
       }
     ]
   },
+  "haben_sein_1-2.2": {
+    "Глаголы": [
+      {
+        "word": "haben",
+        "translation": "иметь",
+        "examples": [
+          { "de": "Ich habe ein Buch.", "ru": "У меня есть книга." },
+          { "de": "Du hast einen Hund.", "ru": "У тебя есть собака." },
+          { "de": "Er hat viele Freunde.", "ru": "У него много друзей." },
+          { "de": "Wir haben Zeit.", "ru": "У нас есть время." },
+          { "de": "Ihr habt Glück.", "ru": "Вам повезло." },
+          { "de": "Sie haben viele Aufgaben.", "ru": "У них много заданий." }
+        ]
+      },
+      {
+        "word": "sein",
+        "translation": "быть",
+        "examples": [
+          { "de": "Ich bin müde.", "ru": "Я устал." },
+          { "de": "Du bist freundlich.", "ru": "Ты дружелюбный." },
+          { "de": "Er ist krank.", "ru": "Он болен." },
+          { "de": "Wir sind glücklich.", "ru": "Мы счастливы." },
+          { "de": "Ihr seid pünktlich.", "ru": "Вы пунктуальны." },
+          { "de": "Sie sind zu Hause.", "ru": "Они дома." }
+        ]
+      },
+      {
+        "word": "haben (отрицание)",
+        "translation": "не иметь",
+        "examples": [
+          { "de": "Ich habe kein Auto.", "ru": "У меня нет машины." },
+          { "de": "Du hast keine Zeit.", "ru": "У тебя нет времени." },
+          { "de": "Er hat keine Ahnung.", "ru": "Он не имеет понятия." },
+          { "de": "Wir haben keine Probleme.", "ru": "У нас нет проблем." },
+          { "de": "Ihr habt keine Lust.", "ru": "У вас нет желания." },
+          { "de": "Sie haben kein Geld.", "ru": "У них нет денег." }
+        ]
+      },
+      {
+        "word": "sein (отрицание)",
+        "translation": "не быть",
+        "examples": [
+          { "de": "Ich bin nicht müde.", "ru": "Я не устал." },
+          { "de": "Du bist nicht traurig.", "ru": "Ты не грустный." },
+          { "de": "Er ist nicht krank.", "ru": "Он не болен." },
+          { "de": "Wir sind nicht spät.", "ru": "Мы не опоздали." },
+          { "de": "Ihr seid nicht da.", "ru": "Вы не здесь." },
+          { "de": "Sie sind nicht zu Hause.", "ru": "Они не дома." }
+        ]
+      },
+      {
+        "word": "Haben-Fragen",
+        "translation": "вопросы с haben",
+        "examples": [
+          { "de": "Habe ich Zeit?", "ru": "У меня есть время?" },
+          { "de": "Hast du ein Buch?", "ru": "У тебя есть книга?" },
+          { "de": "Hat er ein Auto?", "ru": "У него есть машина?" },
+          { "de": "Haben wir Glück?", "ru": "У нас есть удача?" },
+          { "de": "Habt ihr Hunger?", "ru": "Вы голодны?" },
+          { "de": "Haben sie Aufgaben?", "ru": "У них есть задания?" }
+        ]
+      },
+      {
+        "word": "Sein-Fragen",
+        "translation": "вопросы с sein",
+        "examples": [
+          { "de": "Bin ich müde?", "ru": "Я устал?" },
+          { "de": "Bist du glücklich?", "ru": "Ты счастлив?" },
+          { "de": "Ist er krank?", "ru": "Он болен?" },
+          { "de": "Sind wir pünktlich?", "ru": "Мы пунктуальны?" },
+          { "de": "Seid ihr da?", "ru": "Вы здесь?" },
+          { "de": "Sind sie zu Hause?", "ru": "Они дома?" }
+        ]
+      }
+    ],
+    "Существительные": [],
+    "Прилагательные": [],
+    "Фразы": [
+      {
+        "word": "Ich habe Hunger.",
+        "translation": "Я голоден.",
+        "examples": []
+      },
+      { "word": "Es ist kalt.", "translation": "Холодно.", "examples": [] },
+      {
+        "word": "Hast du ein Problem?",
+        "translation": "У тебя есть проблема?",
+        "examples": []
+      },
+      {
+        "word": "Wir sind spät dran.",
+        "translation": "Мы опаздываем.",
+        "examples": []
+      },
+      { "word": "Ich bin froh.", "translation": "Я рад.", "examples": [] },
+      { "word": "Du hast Recht.", "translation": "Ты прав.", "examples": [] }
+    ]
+  },
   "3-2": {
     "Глаголы": [
       {
@@ -460,6 +773,252 @@
       { "word": "zu Hause", "translation": "дома", "examples": [] },
       { "word": "nach", "translation": "в", "examples": [] },
       { "word": "warum", "translation": "почему", "examples": [] }
+    ]
+  },
+  "verben_vokalwechsel_wichtig": {
+    "Глаголы": [
+      {
+        "word": "fahren",
+        "translation": "ехать",
+        "examples": [
+          { "de": "ich fahre", "ru": "я еду" },
+          { "de": "du fährst", "ru": "ты едешь" },
+          { "de": "er/sie/es fährt", "ru": "он/она/оно едет" },
+          { "de": "wir fahren", "ru": "мы едем" },
+          { "de": "ihr fahrt", "ru": "вы едете" },
+          { "de": "sie/Sie fahren", "ru": "они/Вы едут" },
+          {
+            "de": "Wir fahren morgen nach Berlin.",
+            "ru": "Мы едем завтра в Берлин."
+          }
+        ]
+      },
+      {
+        "word": "laufen",
+        "translation": "бегать, идти пешком",
+        "examples": [
+          { "de": "ich laufe", "ru": "я бегаю" },
+          { "de": "du läufst", "ru": "ты бегаешь" },
+          { "de": "er/sie/es läuft", "ru": "он/она/оно бегает" },
+          { "de": "wir laufen", "ru": "мы бегаем" },
+          { "de": "ihr lauft", "ru": "вы бегаете" },
+          { "de": "sie/Sie laufen", "ru": "они/Вы бегают" },
+          {
+            "de": "Ich laufe jeden Morgen im Park.",
+            "ru": "Я бегаю каждое утро в парке."
+          }
+        ]
+      },
+      {
+        "word": "sehen",
+        "translation": "видеть",
+        "examples": [
+          { "de": "ich sehe", "ru": "я вижу" },
+          { "de": "du siehst", "ru": "ты видишь" },
+          { "de": "er/sie/es sieht", "ru": "он/она/оно видит" },
+          { "de": "wir sehen", "ru": "мы видим" },
+          { "de": "ihr seht", "ru": "вы видите" },
+          { "de": "sie/Sie sehen", "ru": "они/Вы видят" },
+          { "de": "Ich sehe den Film.", "ru": "Я вижу фильм." }
+        ]
+      },
+      {
+        "word": "lesen",
+        "translation": "читать",
+        "examples": [
+          { "de": "ich lese", "ru": "я читаю" },
+          { "de": "du liest", "ru": "ты читаешь" },
+          { "de": "er/sie/es liest", "ru": "он/она/оно читает" },
+          { "de": "wir lesen", "ru": "мы читаем" },
+          { "de": "ihr lest", "ru": "вы читаете" },
+          { "de": "sie/Sie lesen", "ru": "они/Вы читают" },
+          { "de": "Er liest ein Buch.", "ru": "Он читает книгу." }
+        ]
+      },
+      {
+        "word": "geben",
+        "translation": "давать",
+        "examples": [
+          { "de": "ich gebe", "ru": "я даю" },
+          { "de": "du gibst", "ru": "ты даёшь" },
+          { "de": "er/sie/es gibt", "ru": "он/она/оно даёт" },
+          { "de": "wir geben", "ru": "мы даём" },
+          { "de": "ihr gebt", "ru": "вы даёте" },
+          { "de": "sie/Sie geben", "ru": "они/Вы дают" },
+          {
+            "de": "Kannst du mir das Buch geben?",
+            "ru": "Ты можешь дать мне книгу?"
+          }
+        ]
+      },
+      {
+        "word": "nehmen",
+        "translation": "брать",
+        "examples": [
+          { "de": "ich nehme", "ru": "я беру" },
+          { "de": "du nimmst", "ru": "ты берёшь" },
+          { "de": "er/sie/es nimmt", "ru": "он/она/оно берёт" },
+          { "de": "wir nehmen", "ru": "мы берём" },
+          { "de": "ihr nehmt", "ru": "вы берёте" },
+          { "de": "sie/Sie nehmen", "ru": "они/Вы берут" },
+          { "de": "Sie nimmt den Zug.", "ru": "Она садится на поезд." }
+        ]
+      },
+      {
+        "word": "sprechen",
+        "translation": "говорить",
+        "examples": [
+          { "de": "ich spreche", "ru": "я говорю" },
+          { "de": "du sprichst", "ru": "ты говоришь" },
+          { "de": "er/sie/es spricht", "ru": "он/она/оно говорит" },
+          { "de": "wir sprechen", "ru": "мы говорим" },
+          { "de": "ihr sprecht", "ru": "вы говорите" },
+          { "de": "sie/Sie sprechen", "ru": "они/Вы говорят" },
+          { "de": "Wir sprechen Deutsch.", "ru": "Мы говорим по-немецки." }
+        ]
+      },
+      {
+        "word": "essen",
+        "translation": "есть (кушать)",
+        "examples": [
+          { "de": "ich esse", "ru": "я ем" },
+          { "de": "du isst", "ru": "ты ешь" },
+          { "de": "er/sie/es isst", "ru": "он/она/оно ест" },
+          { "de": "wir essen", "ru": "мы едим" },
+          { "de": "ihr esst", "ru": "вы едите" },
+          { "de": "sie/Sie essen", "ru": "они/Вы едят" },
+          { "de": "Wir essen Pizza.", "ru": "Мы едим пиццу." }
+        ]
+      },
+      {
+        "word": "tragen",
+        "translation": "носить",
+        "examples": [
+          { "de": "ich trage", "ru": "я ношу" },
+          { "de": "du trägst", "ru": "ты носишь" },
+          { "de": "er/sie/es trägt", "ru": "он/она/оно носит" },
+          { "de": "wir tragen", "ru": "мы носим" },
+          { "de": "ihr tragt", "ru": "вы носите" },
+          { "de": "sie/Sie tragen", "ru": "они/Вы носят" },
+          {
+            "de": "Sie trägt eine schwere Tasche.",
+            "ru": "Она несёт тяжёлую сумку."
+          }
+        ]
+      },
+      {
+        "word": "fallen",
+        "translation": "падать",
+        "examples": [
+          { "de": "ich falle", "ru": "я падаю" },
+          { "de": "du fällst", "ru": "ты падаешь" },
+          { "de": "er/sie/es fällt", "ru": "он/она/оно падает" },
+          { "de": "wir fallen", "ru": "мы падаем" },
+          { "de": "ihr fallt", "ru": "вы падаете" },
+          { "de": "sie/Sie fallen", "ru": "они/Вы падают" },
+          {
+            "de": "Die Blätter fallen im Herbst.",
+            "ru": "Листья падают осенью."
+          }
+        ]
+      },
+      {
+        "word": "waschen",
+        "translation": "мыть",
+        "examples": [
+          { "de": "ich wasche", "ru": "я мою" },
+          { "de": "du wäschst", "ru": "ты моешь" },
+          { "de": "er/sie/es wäscht", "ru": "он/она/оно моет" },
+          { "de": "wir waschen", "ru": "мы моем" },
+          { "de": "ihr wascht", "ru": "вы моете" },
+          { "de": "sie/Sie waschen", "ru": "они/Вы моют" },
+          { "de": "Ich wasche mein Auto.", "ru": "Я мою свою машину." }
+        ]
+      },
+      {
+        "word": "halten",
+        "translation": "держать, останавливаться",
+        "examples": [
+          { "de": "ich halte", "ru": "я держу" },
+          { "de": "du hältst", "ru": "ты держишь" },
+          { "de": "er/sie/es hält", "ru": "он/она/оно держит" },
+          { "de": "wir halten", "ru": "мы держим" },
+          { "de": "ihr haltet", "ru": "вы держите" },
+          { "de": "sie/Sie halten", "ru": "они/Вы держат" },
+          { "de": "Der Bus hält hier.", "ru": "Автобус останавливается здесь." }
+        ]
+      },
+      {
+        "word": "vergessen",
+        "translation": "забывать",
+        "examples": [
+          { "de": "ich vergesse", "ru": "я забываю" },
+          { "de": "du vergisst", "ru": "ты забываешь" },
+          { "de": "er/sie/es vergisst", "ru": "он/она/оно забывает" },
+          { "de": "wir vergessen", "ru": "мы забываем" },
+          { "de": "ihr vergesst", "ru": "вы забываете" },
+          { "de": "sie/Sie vergessen", "ru": "они/Вы забывают" },
+          {
+            "de": "Ich vergesse oft meine Hausaufgaben.",
+            "ru": "Я часто забываю домашнее задание."
+          }
+        ]
+      },
+      {
+        "word": "laufen",
+        "translation": "бегать, ходить пешком",
+        "examples": [
+          { "de": "ich laufe", "ru": "я бегаю" },
+          { "de": "du läufst", "ru": "ты бегаешь" },
+          { "de": "er/sie/es läuft", "ru": "он/она/оно бегает" },
+          { "de": "wir laufen", "ru": "мы бегаем" },
+          { "de": "ihr lauft", "ru": "вы бегаете" },
+          { "de": "sie/Sie laufen", "ru": "они/Вы бегают" },
+          {
+            "de": "Wir laufen jeden Morgen im Park.",
+            "ru": "Мы бегаем каждое утро в парке."
+          }
+        ]
+      },
+      {
+        "word": "anfangen",
+        "translation": "начинать",
+        "examples": [
+          { "de": "ich fange an", "ru": "я начинаю" },
+          { "de": "du fängst an", "ru": "ты начинаешь" },
+          { "de": "er/sie/es fängt an", "ru": "он/она/оно начинает" },
+          { "de": "wir fangen an", "ru": "мы начинаем" },
+          { "de": "ihr fangt an", "ru": "вы начинаете" },
+          { "de": "sie/Sie fangen an", "ru": "они/Вы начинают" },
+          { "de": "Wir fangen um 9 Uhr an.", "ru": "Мы начинаем в 9 часов." }
+        ]
+      },
+      {
+        "word": "schlafen",
+        "translation": "спать",
+        "examples": [
+          { "de": "ich schlafe", "ru": "я сплю" },
+          { "de": "du schläfst", "ru": "ты спишь" },
+          { "de": "er/sie/es schläft", "ru": "он/она/оно спит" },
+          { "de": "wir schlafen", "ru": "мы спим" },
+          { "de": "ihr schlaft", "ru": "вы спите" },
+          { "de": "sie/Sie schlafen", "ru": "они/Вы спят" },
+          { "de": "Ich schlafe acht Stunden.", "ru": "Я сплю восемь часов." }
+        ]
+      },
+      {
+        "word": "tragen",
+        "translation": "носить",
+        "examples": [
+          { "de": "ich trage", "ru": "я ношу" },
+          { "de": "du trägst", "ru": "ты носишь" },
+          { "de": "er/sie/es trägt", "ru": "он/она/оно носит" },
+          { "de": "wir tragen", "ru": "мы носим" },
+          { "de": "ihr tragt", "ru": "вы носите" },
+          { "de": "sie/Sie tragen", "ru": "они/Вы носят" },
+          { "de": "Er trägt eine Jacke.", "ru": "Он носит куртку." }
+        ]
+      }
     ]
   },
   "4.0": {
@@ -671,6 +1230,226 @@
         ]
       }
     ]
+  },
+  "4.0.meine-familie-und-mich": {
+    "Глаголы": [
+      {
+        "word": "heißen",
+        "translation": "зваться, называться",
+        "examples": []
+      },
+      {
+        "word": "studieren",
+        "translation": "учиться (в ВУЗе)",
+        "examples": []
+      },
+      {
+        "word": "unterrichten",
+        "translation": "преподавать, обучать",
+        "examples": []
+      },
+      {
+        "word": "aufhören",
+        "translation": "прекращать",
+        "examples": []
+      },
+      {
+        "word": "kümmern",
+        "translation": "заботиться",
+        "examples": []
+      },
+      {
+        "word": "besuchen",
+        "translation": "посещать, навещать",
+        "examples": []
+      },
+      {
+        "word": "auf Deutsch sprechen",
+        "translation": "говорить на немецком",
+        "examples": []
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "die Möglichkeit, -en",
+        "translation": "возможность, вариант, шанс",
+        "examples": []
+      },
+      {
+        "word": "das Fachbereich",
+        "translation": "специальность, область науки, факультет",
+        "examples": []
+      },
+      {
+        "word": "der Reiseleiter",
+        "translation": "экскурсовод, гид",
+        "examples": []
+      },
+      {
+        "word": "die Kindheit",
+        "translation": "детство",
+        "examples": []
+      },
+      {
+        "word": "das Gebiet",
+        "translation": "область, сфера, район",
+        "examples": []
+      },
+      {
+        "word": "die Krankenschwester",
+        "translation": "медсестра",
+        "examples": []
+      },
+      {
+        "word": "das Studentenwohnheim",
+        "translation": "студенческое общежитие",
+        "examples": []
+      }
+    ],
+    "Прилагательные / фразы": [
+      {
+        "word": "kostenlos",
+        "translation": "бесплатно, безвозмездно",
+        "examples": []
+      },
+      {
+        "word": "weil",
+        "translation": "потому что",
+        "examples": []
+      },
+      {
+        "word": "besonders",
+        "translation": "особенно",
+        "examples": []
+      },
+      {
+        "word": "wegen",
+        "translation": "из-за",
+        "examples": []
+      },
+      {
+        "word": "bestehen aus",
+        "translation": "состоять из",
+        "examples": []
+      },
+      {
+        "word": "lebendig",
+        "translation": "живой, оживлённый",
+        "examples": []
+      },
+      {
+        "word": "gemeinsam",
+        "translation": "общий, совместный",
+        "examples": []
+      },
+      {
+        "word": "Das macht viel Spaß",
+        "translation": "Это доставляет много удовольствия, это доставляет радость",
+        "examples": []
+      },
+      {
+        "word": "enden",
+        "translation": "заканчиваться",
+        "examples": []
+      }
+    ]
+  },
+  "modalverben": {
+    "Глаголы": [
+      {
+        "word": "können",
+        "translation": "мочь, уметь",
+        "examples": [
+          { "de": "ich kann", "ru": "я могу" },
+          { "de": "du kannst", "ru": "ты можешь" },
+          { "de": "er/sie/es kann", "ru": "он/она/оно может" },
+          { "de": "wir können", "ru": "мы можем" },
+          { "de": "ihr könnt", "ru": "вы можете" },
+          { "de": "sie/Sie können", "ru": "они/Вы можете" },
+          {
+            "de": "Ich kann Deutsch sprechen.",
+            "ru": "Я могу говорить по-немецки."
+          }
+        ]
+      },
+      {
+        "word": "müssen",
+        "translation": "должен, необходимо",
+        "examples": [
+          { "de": "ich muss", "ru": "я должен" },
+          { "de": "du musst", "ru": "ты должен" },
+          { "de": "er/sie/es muss", "ru": "он/она/оно должен" },
+          { "de": "wir müssen", "ru": "мы должны" },
+          { "de": "ihr müsst", "ru": "вы должны" },
+          { "de": "sie/Sie müssen", "ru": "они/Вы должны" },
+          {
+            "de": "Wir müssen früh aufstehen.",
+            "ru": "Нам нужно рано вставать."
+          }
+        ]
+      },
+      {
+        "word": "dürfen",
+        "translation": "мочь, иметь разрешение",
+        "examples": [
+          { "de": "ich darf", "ru": "я могу" },
+          { "de": "du darfst", "ru": "ты можешь" },
+          { "de": "er/sie/es darf", "ru": "он/она/оно может" },
+          { "de": "wir dürfen", "ru": "мы можем" },
+          { "de": "ihr dürft", "ru": "вы можете" },
+          { "de": "sie/Sie dürfen", "ru": "они/Вы можете" },
+          {
+            "de": "Du darfst hier nicht rauchen.",
+            "ru": "Тебе нельзя здесь курить."
+          }
+        ]
+      },
+      {
+        "word": "wollen",
+        "translation": "хотеть",
+        "examples": [
+          { "de": "ich will", "ru": "я хочу" },
+          { "de": "du willst", "ru": "ты хочешь" },
+          { "de": "er/sie/es will", "ru": "он/она/оно хочет" },
+          { "de": "wir wollen", "ru": "мы хотим" },
+          { "de": "ihr wollt", "ru": "вы хотите" },
+          { "de": "sie/Sie wollen", "ru": "они/Вы хотят" },
+          { "de": "Ich will ins Kino gehen.", "ru": "Я хочу пойти в кино." }
+        ]
+      },
+      {
+        "word": "sollen",
+        "translation": "должен (по приказу, совету)",
+        "examples": [
+          { "de": "ich soll", "ru": "я должен" },
+          { "de": "du sollst", "ru": "ты должен" },
+          { "de": "er/sie/es soll", "ru": "он/она/оно должен" },
+          { "de": "wir sollen", "ru": "мы должны" },
+          { "de": "ihr sollt", "ru": "вы должны" },
+          { "de": "sie/Sie sollen", "ru": "они/Вы должны" },
+          {
+            "de": "Du sollst mehr Wasser trinken.",
+            "ru": "Тебе следует пить больше воды."
+          }
+        ]
+      },
+      {
+        "word": "mögen",
+        "translation": "любить, нравиться",
+        "examples": [
+          { "de": "ich mag", "ru": "я люблю" },
+          { "de": "du magst", "ru": "ты любишь" },
+          { "de": "er/sie/es mag", "ru": "он/она/оно любит" },
+          { "de": "wir mögen", "ru": "мы любим" },
+          { "de": "ihr mögt", "ru": "вы любите" },
+          { "de": "sie/Sie mögen", "ru": "они/Вы любят" },
+          { "de": "Ich mag Schokolade.", "ru": "Я люблю шоколад." }
+        ]
+      }
+    ],
+    "Существительные": [],
+    "Прилагательные": [],
+    "Фразы": []
   },
   "5-6": {
     "Глаголы": [
@@ -903,6 +1682,118 @@
       }
     ]
   },
+  "werden_uhrzeit": {
+    "Глаголы": [
+      {
+        "word": "werden",
+        "translation": "становиться, стать",
+        "examples": [
+          { "de": "ich werde", "ru": "я становлюсь" },
+          { "de": "du wirst", "ru": "ты становишься" },
+          { "de": "er/sie/es wird", "ru": "он/она/оно становится" },
+          { "de": "wir werden", "ru": "мы становимся" },
+          { "de": "ihr werdet", "ru": "вы становитесь" },
+          { "de": "sie/Sie werden", "ru": "они/Вы становятся" },
+          { "de": "Ich werde müde.", "ru": "Я становлюсь уставшим." },
+          { "de": "Er wird Arzt.", "ru": "Он станет врачом." },
+          {
+            "de": "Das Wetter wird kalt.",
+            "ru": "Погода становится холодной."
+          },
+          { "de": "Sie wird bald kommen.", "ru": "Она скоро придёт." },
+          { "de": "Wir werden Freunde.", "ru": "Мы становимся друзьями." },
+          {
+            "de": "Die Situation wird kompliziert.",
+            "ru": "Ситуация становится сложной."
+          },
+          {
+            "de": "Du wirst immer besser Deutsch sprechen.",
+            "ru": "Ты всё лучше говоришь по-немецки."
+          }
+        ]
+      }
+    ],
+    "Существительные": [
+      { "word": "die Uhrzeit", "translation": "время (часы)", "examples": [] },
+      { "word": "die Stunde", "translation": "час", "examples": [] },
+      { "word": "die Minute", "translation": "минута", "examples": [] },
+      { "word": "die Sekunde", "translation": "секунда", "examples": [] }
+    ],
+    "Прилагательные": [],
+    "Фразы": [
+      {
+        "word": "Wie spät ist es?",
+        "translation": "Который час?",
+        "examples": []
+      },
+      {
+        "word": "Es ist ein Uhr.",
+        "translation": "Сейчас час.",
+        "examples": []
+      },
+      {
+        "word": "Es ist ein Uhr.",
+        "translation": "Сейчас один час.",
+        "examples": [{ "de": "1:00", "ru": "1:00" }]
+      },
+      {
+        "word": "Es ist Viertel nach eins.",
+        "translation": "Сейчас четверть второго.",
+        "examples": [{ "de": "1:15", "ru": "1:15" }]
+      },
+      {
+        "word": "Es ist halb zwei.",
+        "translation": "Сейчас половина второго.",
+        "examples": [{ "de": "1:30", "ru": "1:30" }]
+      },
+      {
+        "word": "Es ist Viertel vor zwei.",
+        "translation": "Сейчас без четверти два.",
+        "examples": [{ "de": "1:45", "ru": "1:45" }]
+      },
+      {
+        "word": "Es ist zwei Uhr.",
+        "translation": "Сейчас два часа.",
+        "examples": [{ "de": "2:00", "ru": "2:00" }]
+      },
+      {
+        "word": "Es ist Viertel nach zwei.",
+        "translation": "Сейчас четверть третьего.",
+        "examples": [{ "de": "2:15", "ru": "2:15" }]
+      },
+      {
+        "word": "Es ist halb drei.",
+        "translation": "Сейчас половина третьего.",
+        "examples": [{ "de": "2:30", "ru": "2:30" }]
+      },
+      {
+        "word": "Es ist Viertel vor drei.",
+        "translation": "Сейчас без четверти три.",
+        "examples": [{ "de": "2:45", "ru": "2:45" }]
+      },
+      {
+        "word": "Es ist fünf vor halb eins.",
+        "translation": "Сейчас двенадцать двадцать пять.",
+        "examples": [{ "de": "12:25", "ru": "12:25" }]
+      },
+      {
+        "word": "Es ist halb eins.",
+        "translation": "Сейчас половина первого.",
+        "examples": [{ "de": "12:30", "ru": "12:30" }]
+      },
+      {
+        "word": "Es ist fünf nach halb eins.",
+        "translation": "Сейчас двенадцать тридцать пять.",
+        "examples": [{ "de": "12:35", "ru": "12:35" }]
+      },
+      { "word": "Es ist Mittag.", "translation": "Полдень.", "examples": [] },
+      {
+        "word": "Es ist Mitternacht.",
+        "translation": "Полночь.",
+        "examples": []
+      }
+    ]
+  },
   "7.0": {
     "Глаголы": [
       {
@@ -1126,6 +2017,266 @@
       }
     ]
   },
+  "trennbare_verben": {
+    "Глаголы": [
+      {
+        "word": "aufstehen",
+        "translation": "вставать",
+        "forms": [
+          { "person": "ich", "form": "stehe ... auf" },
+          { "person": "du", "form": "stehst ... auf" },
+          { "person": "er/sie/es", "form": "steht ... auf" },
+          { "person": "wir", "form": "stehen ... auf" },
+          { "person": "ihr", "form": "steht ... auf" },
+          { "person": "sie/Sie", "form": "stehen ... auf" }
+        ],
+        "examples": [
+          {
+            "de": "Ich stehe um sieben Uhr auf.",
+            "ru": "Я встаю в семь часов."
+          }
+        ]
+      },
+      {
+        "word": "anrufen",
+        "translation": "звонить (по телефону)",
+        "forms": [
+          { "person": "ich", "form": "rufe ... an" },
+          { "person": "du", "form": "rufst ... an" },
+          { "person": "er/sie/es", "form": "ruft ... an" },
+          { "person": "wir", "form": "rufen ... an" },
+          { "person": "ihr", "form": "ruft ... an" },
+          { "person": "sie/Sie", "form": "rufen ... an" }
+        ],
+        "examples": [
+          { "de": "Ich rufe meinen Freund an.", "ru": "Я звоню своему другу." }
+        ]
+      },
+      {
+        "word": "mitkommen",
+        "translation": "идти вместе, составить компанию",
+        "forms": [
+          { "person": "ich", "form": "komme ... mit" },
+          { "person": "du", "form": "kommst ... mit" },
+          { "person": "er/sie/es", "form": "kommt ... mit" },
+          { "person": "wir", "form": "kommen ... mit" },
+          { "person": "ihr", "form": "kommt ... mit" },
+          { "person": "sie/Sie", "form": "kommen ... mit" }
+        ],
+        "examples": [
+          {
+            "de": "Kommst du heute mit ins Kino?",
+            "ru": "Ты пойдёшь сегодня со мной в кино?"
+          }
+        ]
+      },
+      {
+        "word": "aufmachen",
+        "translation": "открывать",
+        "forms": [
+          { "person": "ich", "form": "mache ... auf" },
+          { "person": "du", "form": "machst ... auf" },
+          { "person": "er/sie/es", "form": "macht ... auf" },
+          { "person": "wir", "form": "machen ... auf" },
+          { "person": "ihr", "form": "macht ... auf" },
+          { "person": "sie/Sie", "form": "machen ... auf" }
+        ],
+        "examples": [
+          {
+            "de": "Kannst du das Fenster aufmachen?",
+            "ru": "Ты можешь открыть окно?"
+          }
+        ]
+      },
+      {
+        "word": "zumachen",
+        "translation": "закрывать",
+        "forms": [
+          { "person": "ich", "form": "mache ... zu" },
+          { "person": "du", "form": "machst ... zu" },
+          { "person": "er/sie/es", "form": "macht ... zu" },
+          { "person": "wir", "form": "machen ... zu" },
+          { "person": "ihr", "form": "macht ... zu" },
+          { "person": "sie/Sie", "form": "machen ... zu" }
+        ],
+        "examples": [
+          { "de": "Mach bitte die Tür zu.", "ru": "Пожалуйста, закрой дверь." }
+        ]
+      },
+      {
+        "word": "aufstehen",
+        "translation": "вставать",
+        "forms": [
+          { "person": "ich", "form": "stehe ... auf" },
+          { "person": "du", "form": "stehst ... auf" },
+          { "person": "er/sie/es", "form": "steht ... auf" },
+          { "person": "wir", "form": "stehen ... auf" },
+          { "person": "ihr", "form": "steht ... auf" },
+          { "person": "sie/Sie", "form": "stehen ... auf" }
+        ],
+        "examples": [
+          {
+            "de": "Ich stehe jeden Morgen um 7 Uhr auf.",
+            "ru": "Я встаю каждое утро в 7 часов."
+          }
+        ]
+      }
+    ]
+  },
+  "7.0.mein-arbeitstag": {
+    "Глаголы": [
+      {
+        "word": "verbringen",
+        "translation": "проводить время",
+        "examples": []
+      },
+      {
+        "word": "aufwachen",
+        "translation": "просыпаться, пробуждаться",
+        "examples": []
+      },
+      {
+        "word": "kennen",
+        "translation": "знать, быть знакомым",
+        "examples": []
+      },
+      {
+        "word": "klingen",
+        "translation": "звонить, раздаваться",
+        "examples": []
+      },
+      {
+        "word": "ausschalten",
+        "translation": "выключать, отключать",
+        "examples": []
+      },
+      {
+        "word": "sich verspäten",
+        "translation": "опаздывать",
+        "examples": []
+      },
+      {
+        "word": "anziehen",
+        "translation": "одеваться",
+        "examples": []
+      },
+      {
+        "word": "frühstücken",
+        "translation": "завтракать",
+        "examples": []
+      },
+      {
+        "word": "anfangen",
+        "translation": "начинать",
+        "examples": []
+      },
+      {
+        "word": "sich befinden",
+        "translation": "находиться",
+        "examples": []
+      },
+      {
+        "word": "umsteigen",
+        "translation": "пересаживаться",
+        "examples": []
+      },
+      {
+        "word": "abholen",
+        "translation": "забирать",
+        "examples": []
+      },
+      {
+        "word": "einschlafen",
+        "translation": "засыпать",
+        "examples": []
+      },
+      {
+        "word": "das schmutzige Geschirr spülen",
+        "translation": "мыть грязную посуду",
+        "examples": []
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "der Teil, die Teile",
+        "translation": "часть, части",
+        "examples": []
+      },
+      {
+        "word": "der Werktag",
+        "translation": "рабочий день, будни",
+        "examples": []
+      },
+      {
+        "word": "die Haltestelle",
+        "translation": "остановка",
+        "examples": []
+      },
+      {
+        "word": "das Spiegelei",
+        "translation": "яичница-глазунья",
+        "examples": []
+      },
+      {
+        "word": "der Pfannkuchen",
+        "translation": "блинчик",
+        "examples": []
+      },
+      {
+        "word": "die Kommilitonen",
+        "translation": "одногруппники",
+        "examples": []
+      }
+    ],
+    "Прилагательные / фразы": [
+      {
+        "word": "normalerweise",
+        "translation": "обычно, как правило",
+        "examples": []
+      },
+      {
+        "word": "selten",
+        "translation": "редкий, редко",
+        "examples": []
+      },
+      {
+        "word": "in diesem Fall",
+        "translation": "в этом случае",
+        "examples": []
+      },
+      {
+        "word": "schlimm",
+        "translation": "плохой",
+        "examples": []
+      },
+      {
+        "word": "circa (ca.)",
+        "translation": "около, примерно",
+        "examples": []
+      },
+      {
+        "word": "günstig",
+        "translation": "благоприятный, выгодный, дешевый",
+        "examples": []
+      },
+      {
+        "word": "abends",
+        "translation": "по вечерам",
+        "examples": []
+      },
+      {
+        "word": "anderthalb",
+        "translation": "полтора часа",
+        "examples": []
+      },
+      {
+        "word": "vor dem Schlafen",
+        "translation": "перед сном",
+        "examples": []
+      }
+    ]
+  },
+
   "8.0": {
     "Глаголы": [
       {
@@ -1359,7 +2510,230 @@
       }
     ]
   },
-
+  "imperativ_erweitert": {
+    "Глаголы": [
+      {
+        "word": "machen",
+        "translation": "делать",
+        "examples": [
+          {
+            "de": "Du-форма: Mach deine Hausaufgaben! (убираем -st)",
+            "ru": "Сделай свою домашнюю работу!"
+          },
+          {
+            "de": "Ihr-форма: Macht die Tür zu! (без личного местоимения)",
+            "ru": "Закройте дверь!"
+          },
+          {
+            "de": "Sie-форма: Machen Sie bitte das Fenster auf.",
+            "ru": "Откройте, пожалуйста, окно."
+          },
+          {
+            "de": "Wir-форма: Machen wir eine Pause!",
+            "ru": "Давайте сделаем перерыв!"
+          }
+        ]
+      },
+      {
+        "word": "kommen",
+        "translation": "приходить",
+        "examples": [
+          {
+            "de": "Du-форма: Komm hier!",
+            "ru": "Иди сюда!"
+          },
+          {
+            "de": "Ihr-форма: Kommt schnell!",
+            "ru": "Идите быстро!"
+          },
+          {
+            "de": "Sie-форма: Kommen Sie bitte her.",
+            "ru": "Пройдите сюда, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Kommen wir ins Kino!",
+            "ru": "Пойдём в кино!"
+          }
+        ]
+      },
+      {
+        "word": "lesen",
+        "translation": "читать",
+        "examples": [
+          {
+            "de": "Du-форма: Lies das Buch! (неправильный глагол меняет гласную)",
+            "ru": "Прочитай книгу!"
+          },
+          {
+            "de": "Ihr-форма: Lest die Zeitung!",
+            "ru": "Читайте газету!"
+          },
+          {
+            "de": "Sie-форма: Lesen Sie bitte den Text.",
+            "ru": "Прочитайте текст, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Lesen wir zusammen!",
+            "ru": "Давайте почитаем вместе!"
+          }
+        ]
+      },
+      {
+        "word": "fahren",
+        "translation": "ехать",
+        "examples": [
+          {
+            "de": "Du-форма: Fahr vorsichtig!",
+            "ru": "Едь осторожно!"
+          },
+          {
+            "de": "Ihr-форма: Fahrt schnell!",
+            "ru": "Едьте быстро!"
+          },
+          {
+            "de": "Sie-форма: Fahren Sie bitte nach links.",
+            "ru": "Поверните налево, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Fahren wir zusammen!",
+            "ru": "Поедем вместе!"
+          }
+        ]
+      },
+      {
+        "word": "sprechen",
+        "translation": "говорить",
+        "examples": [
+          {
+            "de": "Du-форма: Sprich langsam!",
+            "ru": "Говори медленно!"
+          },
+          {
+            "de": "Ihr-форма: Sprecht lauter!",
+            "ru": "Говорите громче!"
+          },
+          {
+            "de": "Sie-форма: Sprechen Sie bitte deutlich.",
+            "ru": "Говорите чётко, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Sprechen wir zusammen!",
+            "ru": "Давайте поговорим вместе!"
+          }
+        ]
+      },
+      {
+        "word": "essen",
+        "translation": "есть",
+        "examples": [
+          {
+            "de": "Du-форма: Iss dein Gemüse!",
+            "ru": "Ешь свои овощи!"
+          },
+          {
+            "de": "Ihr-форма: Esst das Frühstück!",
+            "ru": "Ешьте завтрак!"
+          },
+          {
+            "de": "Sie-форма: Essen Sie bitte langsam.",
+            "ru": "Ешьте медленно, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Essen wir zusammen!",
+            "ru": "Давайте поедим вместе!"
+          }
+        ]
+      },
+      {
+        "word": "geben",
+        "translation": "давать",
+        "examples": [
+          {
+            "de": "Du-форма: Gib mir das Buch!",
+            "ru": "Дай мне книгу!"
+          },
+          {
+            "de": "Ihr-форма: Gebt mir bitte die Bücher!",
+            "ru": "Дайте мне книги, пожалуйста!"
+          },
+          {
+            "de": "Sie-форма: Geben Sie mir das Geld bitte.",
+            "ru": "Дайте мне деньги, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Geben wir ihm eine Chance!",
+            "ru": "Давайте дадим ему шанс!"
+          }
+        ]
+      },
+      {
+        "word": "nehmen",
+        "translation": "брать",
+        "examples": [
+          {
+            "de": "Du-форма: Nimm die Tasche!",
+            "ru": "Возьми сумку!"
+          },
+          {
+            "de": "Ihr-форма: Nehmt die Bücher!",
+            "ru": "Возьмите книги!"
+          },
+          {
+            "de": "Sie-форма: Nehmen Sie bitte Platz.",
+            "ru": "Присаживайтесь, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Nehmen wir das Angebot an!",
+            "ru": "Давайте примем предложение!"
+          }
+        ]
+      },
+      {
+        "word": "sehen",
+        "translation": "видеть",
+        "examples": [
+          {
+            "de": "Du-форма: Sieh mal!",
+            "ru": "Посмотри!"
+          },
+          {
+            "de": "Ihr-форма: Seht das Bild!",
+            "ru": "Посмотрите картину!"
+          },
+          {
+            "de": "Sie-форма: Sehen Sie bitte das Foto.",
+            "ru": "Посмотрите на фото, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Sehen wir uns das Video an!",
+            "ru": "Давайте посмотрим видео!"
+          }
+        ]
+      },
+      {
+        "word": "aufstehen",
+        "translation": "вставать",
+        "examples": [
+          {
+            "de": "Du-форма: Steh auf!",
+            "ru": "Встань!"
+          },
+          {
+            "de": "Ihr-форма: Steht bitte auf!",
+            "ru": "Встаньте, пожалуйста!"
+          },
+          {
+            "de": "Sie-форма: Stehen Sie bitte auf.",
+            "ru": "Встаньте, пожалуйста."
+          },
+          {
+            "de": "Wir-форма: Stehen wir jetzt auf!",
+            "ru": "Давайте встанем сейчас!"
+          }
+        ]
+      }
+    ]
+  },
   "9-10": {
     "Глаголы": [
       {
@@ -1642,6 +3016,321 @@
       }
     ]
   },
+  "w_fragen_ja_nein_doch": {
+    "Глаголы": [],
+    "Существительные": [],
+    "Прилагательные": [],
+    "Фразы": [
+      {
+        "word": "Wer?",
+        "translation": "Кто?",
+        "examples": [
+          { "de": "Wer ist da? (Вопрос о человеке)", "ru": "Кто там?" }
+        ]
+      },
+      {
+        "word": "Was?",
+        "translation": "Что?",
+        "examples": [
+          {
+            "de": "Was machst du? (Вопрос о предмете или действии)",
+            "ru": "Что ты делаешь?"
+          }
+        ]
+      },
+      {
+        "word": "Wann?",
+        "translation": "Когда?",
+        "examples": [
+          {
+            "de": "Wann beginnt der Film? (Вопрос о времени)",
+            "ru": "Когда начинается фильм?"
+          }
+        ]
+      },
+      {
+        "word": "Wo?",
+        "translation": "Где?",
+        "examples": [
+          { "de": "Wo wohnst du? (Вопрос о месте)", "ru": "Где ты живёшь?" }
+        ]
+      },
+      {
+        "word": "Warum?",
+        "translation": "Почему?",
+        "examples": [
+          {
+            "de": "Warum bist du traurig? (Вопрос о причине)",
+            "ru": "Почему ты грустный?"
+          }
+        ]
+      },
+      {
+        "word": "Wie?",
+        "translation": "Как?",
+        "examples": [
+          {
+            "de": "Wie geht es dir? (Вопрос о состоянии или способе)",
+            "ru": "Как у тебя дела?"
+          }
+        ]
+      },
+      {
+        "word": "Welcher?",
+        "translation": "Который?",
+        "examples": [
+          {
+            "de": "Welcher Film gefällt dir? (Вопрос о выборе)",
+            "ru": "Какой фильм тебе нравится?"
+          }
+        ]
+      },
+      {
+        "word": "Wessen?",
+        "translation": "Чей?",
+        "examples": [
+          {
+            "de": "Wessen Buch ist das? (Вопрос о принадлежности)",
+            "ru": "Чья это книга?"
+          }
+        ]
+      },
+      {
+        "word": "Wie viel?",
+        "translation": "Сколько?",
+        "examples": [
+          {
+            "de": "Wie viel kostet das? (Вопрос о количестве/цене)",
+            "ru": "Сколько это стоит?"
+          }
+        ]
+      },
+      {
+        "word": "Wie lange?",
+        "translation": "Как долго?",
+        "examples": [
+          {
+            "de": "Wie lange dauert der Film? (Вопрос о продолжительности)",
+            "ru": "Как долго длится фильм?"
+          }
+        ]
+      },
+      {
+        "word": "Ja",
+        "translation": "Да",
+        "examples": [
+          {
+            "de": "Ja, ich komme. (Используется для подтверждения)",
+            "ru": "Да, я приду."
+          }
+        ]
+      },
+      {
+        "word": "Nein",
+        "translation": "Нет",
+        "examples": [
+          {
+            "de": "Nein, ich kann nicht. (Используется для отрицания)",
+            "ru": "Нет, я не могу."
+          }
+        ]
+      },
+      {
+        "word": "Doch",
+        "translation": "Всё-таки, напротив",
+        "examples": [
+          {
+            "de": "Du hast das nicht gemacht? – Doch, ich habe es gemacht! (Используется для опровержения отрицания)",
+            "ru": "Ты этого не сделал? – Всё-таки, я сделал!"
+          }
+        ]
+      },
+      {
+        "word": "Woher?",
+        "translation": "Откуда?",
+        "examples": [
+          {
+            "de": "Woher kommst du? (Вопрос о происхождении)",
+            "ru": "Откуда ты?"
+          }
+        ]
+      },
+      {
+        "word": "Wohin?",
+        "translation": "Куда?",
+        "examples": [
+          {
+            "de": "Wohin gehst du? (Вопрос о направлении)",
+            "ru": "Куда ты идёшь?"
+          }
+        ]
+      },
+      {
+        "word": "Mit wem?",
+        "translation": "С кем?",
+        "examples": [
+          {
+            "de": "Mit wem gehst du ins Kino? (Вопрос о компании)",
+            "ru": "С кем ты идёшь в кино?"
+          }
+        ]
+      },
+      {
+        "word": "Über wen?",
+        "translation": "О ком?",
+        "examples": [
+          {
+            "de": "Über wen redest du? (Вопрос о теме)",
+            "ru": "О ком ты говоришь?"
+          }
+        ]
+      },
+      {
+        "word": "Wie oft?",
+        "translation": "Как часто?",
+        "examples": [
+          {
+            "de": "Wie oft gehst du spazieren? (Вопрос о частоте)",
+            "ru": "Как часто ты гуляешь?"
+          }
+        ]
+      },
+      {
+        "word": "Wie lange schon?",
+        "translation": "Как давно?",
+        "examples": [
+          {
+            "de": "Wie lange lernst du Deutsch schon? (Вопрос о длительности)",
+            "ru": "Как давно ты учишь немецкий?"
+          }
+        ]
+      }
+    ]
+  },
+  "9-10.mein-studium": {
+    "Глаголы": [
+      {
+        "word": "Filme schauen",
+        "translation": "смотреть фильмы",
+        "examples": []
+      },
+      {
+        "word": "verschiedene Seminare besuchen",
+        "translation": "разные семинары посещать",
+        "examples": []
+      },
+      {
+        "word": "erzählen über",
+        "translation": "рассказывать о",
+        "examples": []
+      },
+      {
+        "word": "auswählen",
+        "translation": "выбирать",
+        "examples": []
+      },
+      {
+        "word": "kommunizieren",
+        "translation": "общаться",
+        "examples": []
+      },
+      {
+        "word": "inspirieren",
+        "translation": "вдохновлять, инспирировать",
+        "examples": []
+      },
+      {
+        "word": "verbessern",
+        "translation": "улучшать",
+        "examples": []
+      },
+      {
+        "word": "als Deutschlehrer arbeiten",
+        "translation": "работать как учитель немецкого",
+        "examples": []
+      },
+      {
+        "word": "zahlen",
+        "translation": "платить",
+        "examples": []
+      },
+      {
+        "word": "bekommen",
+        "translation": "получать",
+        "examples": []
+      },
+      {
+        "word": "gefallen",
+        "translation": "нравиться",
+        "examples": []
+      },
+      {
+        "word": "miteinander sprechen",
+        "translation": "говорить друг с другом",
+        "examples": []
+      },
+      {
+        "word": "einen Test gut bestehen",
+        "translation": "пройти тест хорошо, хорошо сдать тест",
+        "examples": []
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "in einer internationalen Schule arbeiten",
+        "translation": "работать в одной из международных школ",
+        "examples": []
+      },
+      {
+        "word": "die Budget Abteilung",
+        "translation": "бюджетное отделение",
+        "examples": []
+      },
+      {
+        "word": "das Studentengebühr",
+        "translation": "студенческие сборы",
+        "examples": []
+      },
+      {
+        "word": "das Hauptgebäude",
+        "translation": "главное здание, главный корпус",
+        "examples": []
+      },
+      {
+        "word": "das Gebäude",
+        "translation": "здание, корпус",
+        "examples": []
+      },
+      {
+        "word": "das Studienjahr",
+        "translation": "учебный год, курс(в ВУЗе)",
+        "examples": []
+      },
+      {
+        "word": "das Fach",
+        "translation": "предмет, специальность, профессия",
+        "examples": []
+      }
+    ],
+    "Прилагательные / фразы": [
+      {
+        "word": "effizient",
+        "translation": "эффективный, действенный",
+        "examples": []
+      },
+      {
+        "word": "vielleicht",
+        "translation": "может быть, возможно",
+        "examples": []
+      },
+      {
+        "word": "es gibt",
+        "translation": "есть, имеется",
+        "examples": []
+      }
+    ]
+  },
+
   "11-12": {
     "Глаголы": [
       {
@@ -2028,6 +3717,1052 @@
       {
         "word": "vorher",
         "translation": "прежде",
+        "examples": []
+      }
+    ]
+  },
+  "worter_im_satz": {
+    "Глаголы": [
+      {
+        "word": "lernen",
+        "translation": "учить, изучать",
+        "examples": [{ "de": "Ich lerne Deutsch.", "ru": "Я учу немецкий." }]
+      },
+      {
+        "word": "spielen",
+        "translation": "играть",
+        "examples": [
+          { "de": "Die Kinder spielen im Garten.", "ru": "Дети играют в саду." }
+        ]
+      },
+      {
+        "word": "wohnen",
+        "translation": "жить, проживать",
+        "examples": [
+          { "de": "Ich wohne in Berlin.", "ru": "Я живу в Берлине." }
+        ]
+      },
+      {
+        "word": "essen",
+        "translation": "есть, кушать",
+        "examples": [{ "de": "Wir essen Pizza.", "ru": "Мы едим пиццу." }]
+      },
+      {
+        "word": "trinken",
+        "translation": "пить",
+        "examples": [{ "de": "Er trinkt Wasser.", "ru": "Он пьет воду." }]
+      },
+      {
+        "word": "gehen",
+        "translation": "идти",
+        "examples": [
+          { "de": "Wir gehen in die Schule.", "ru": "Мы идём в школу." }
+        ]
+      },
+      {
+        "word": "kommen",
+        "translation": "приходить",
+        "examples": [{ "de": "Sie kommt morgen.", "ru": "Она придет завтра." }]
+      },
+      {
+        "word": "fahren",
+        "translation": "ехать",
+        "examples": [
+          { "de": "Ich fahre mit dem Bus.", "ru": "Я еду на автобусе." }
+        ]
+      },
+      {
+        "word": "sehen",
+        "translation": "видеть",
+        "examples": [{ "de": "Ich sehe den Film.", "ru": "Я вижу фильм." }]
+      },
+      {
+        "word": "schreiben",
+        "translation": "писать",
+        "examples": [
+          { "de": "Er schreibt einen Brief.", "ru": "Он пишет письмо." }
+        ]
+      },
+      {
+        "word": "lesen",
+        "translation": "читать",
+        "examples": [{ "de": "Ich lese ein Buch.", "ru": "Я читаю книгу." }]
+      },
+      {
+        "word": "arbeiten",
+        "translation": "работать",
+        "examples": [
+          { "de": "Sie arbeitet im Büro.", "ru": "Она работает в офисе." }
+        ]
+      },
+      {
+        "word": "helfen",
+        "translation": "помогать",
+        "examples": [
+          { "de": "Kannst du mir helfen?", "ru": "Ты можешь мне помочь?" }
+        ]
+      },
+      {
+        "word": "schlafen",
+        "translation": "спать",
+        "examples": [
+          { "de": "Ich schlafe acht Stunden.", "ru": "Я сплю восемь часов." }
+        ]
+      },
+      {
+        "word": "kaufen",
+        "translation": "покупать",
+        "examples": [
+          {
+            "de": "Wir kaufen ein neues Auto.",
+            "ru": "Мы покупаем новую машину."
+          }
+        ]
+      },
+      {
+        "word": "verkaufen",
+        "translation": "продавать",
+        "examples": [
+          {
+            "de": "Er verkauft sein Fahrrad.",
+            "ru": "Он продает свой велосипед."
+          }
+        ]
+      },
+      {
+        "word": "beginnen",
+        "translation": "начинать",
+        "examples": [
+          {
+            "de": "Der Kurs beginnt um neun Uhr.",
+            "ru": "Курс начинается в девять часов."
+          }
+        ]
+      },
+      {
+        "word": "beenden",
+        "translation": "заканчивать",
+        "examples": [
+          { "de": "Wir beenden das Projekt.", "ru": "Мы заканчиваем проект." }
+        ]
+      },
+      {
+        "word": "brauchen",
+        "translation": "нуждаться",
+        "examples": [
+          { "de": "Ich brauche deine Hilfe.", "ru": "Мне нужна твоя помощь." }
+        ]
+      },
+      {
+        "word": "finden",
+        "translation": "находить",
+        "examples": [
+          {
+            "de": "Ich finde meine Schlüssel nicht.",
+            "ru": "Я не могу найти свои ключи."
+          }
+        ]
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "Haus",
+        "translation": "дом",
+        "examples": [{ "de": "Das Haus ist groß.", "ru": "Дом большой." }]
+      },
+      {
+        "word": "Hund",
+        "translation": "собака",
+        "examples": [
+          { "de": "Der Hund schläft im Garten.", "ru": "Собака спит в саду." }
+        ]
+      },
+      {
+        "word": "Katze",
+        "translation": "кошка",
+        "examples": [{ "de": "Die Katze ist süß.", "ru": "Кошка милая." }]
+      },
+      {
+        "word": "Auto",
+        "translation": "машина",
+        "examples": [{ "de": "Mein Auto ist neu.", "ru": "Моя машина новая." }]
+      },
+      {
+        "word": "Buch",
+        "translation": "книга",
+        "examples": [{ "de": "Ich lese ein Buch.", "ru": "Я читаю книгу." }]
+      },
+      {
+        "word": "Stadt",
+        "translation": "город",
+        "examples": [
+          {
+            "de": "Berlin ist eine große Stadt.",
+            "ru": "Берлин — большой город."
+          }
+        ]
+      },
+      {
+        "word": "Schule",
+        "translation": "школа",
+        "examples": [
+          {
+            "de": "Die Schule beginnt um acht Uhr.",
+            "ru": "Школа начинается в восемь часов."
+          }
+        ]
+      },
+      {
+        "word": "Lehrer",
+        "translation": "учитель",
+        "examples": [{ "de": "Der Lehrer ist nett.", "ru": "Учитель добрый." }]
+      },
+      {
+        "word": "Schüler",
+        "translation": "ученик",
+        "examples": [
+          {
+            "de": "Die Schüler lernen Deutsch.",
+            "ru": "Ученики учат немецкий."
+          }
+        ]
+      },
+      {
+        "word": "Tisch",
+        "translation": "стол",
+        "examples": [{ "de": "Der Tisch ist groß.", "ru": "Стол большой." }]
+      }
+    ],
+    "Прилагательные": [
+      {
+        "word": "groß",
+        "translation": "большой",
+        "examples": [{ "de": "Das Haus ist groß.", "ru": "Дом большой." }]
+      },
+      {
+        "word": "klein",
+        "translation": "маленький",
+        "examples": [
+          { "de": "Das Kind ist klein.", "ru": "Ребенок маленький." }
+        ]
+      },
+      {
+        "word": "schön",
+        "translation": "красивый",
+        "examples": [{ "de": "Die Blume ist schön.", "ru": "Цветок красивый." }]
+      },
+      {
+        "word": "alt",
+        "translation": "старый",
+        "examples": [{ "de": "Mein Haus ist alt.", "ru": "Мой дом старый." }]
+      },
+      {
+        "word": "jung",
+        "translation": "молодой",
+        "examples": [
+          { "de": "Mein Bruder ist jung.", "ru": "Мой брат молодой." }
+        ]
+      }
+    ],
+    "Фразы": [
+      {
+        "word": "Guten Morgen",
+        "translation": "Доброе утро",
+        "examples": [
+          {
+            "de": "Guten Morgen! Wie geht es dir?",
+            "ru": "Доброе утро! Как у тебя дела?"
+          }
+        ]
+      },
+      {
+        "word": "Vielen Dank",
+        "translation": "Большое спасибо",
+        "examples": [
+          {
+            "de": "Vielen Dank für deine Hilfe.",
+            "ru": "Большое спасибо за твою помощь."
+          }
+        ]
+      },
+      {
+        "word": "Entschuldigung",
+        "translation": "Извините",
+        "examples": [
+          {
+            "de": "Entschuldigung, wo ist die Toilette?",
+            "ru": "Извините, где туалет?"
+          }
+        ]
+      },
+      {
+        "word": "Wie heißt du?",
+        "translation": "Как тебя зовут?",
+        "examples": [{ "de": "Wie heißt du?", "ru": "Как тебя зовут?" }]
+      },
+      {
+        "word": "Ich liebe dich",
+        "translation": "Я тебя люблю",
+        "examples": [{ "de": "Ich liebe dich.", "ru": "Я тебя люблю." }]
+      }
+    ]
+  },
+  "11-12.2.Warum möchte ich nach Deutschland?": {
+    "Глаголы": [
+      {
+        "word": "verdienen",
+        "translation": "зарабатывать деньги",
+        "examples": [
+          {
+            "de": "Er verdient Geld im Sommerurlaub.",
+            "ru": "Он зарабатывает деньги во время летних каникул."
+          }
+        ]
+      },
+      {
+        "word": "abbrechen",
+        "translation": "прерывать, прекращать",
+        "examples": [
+          {
+            "de": "Sie musste das Studium abbrechen.",
+            "ru": "Ей пришлось прервать обучение."
+          }
+        ]
+      },
+      {
+        "word": "reisen",
+        "translation": "путешествовать",
+        "examples": [
+          {
+            "de": "Wir möchten durch Europa reisen.",
+            "ru": "Мы хотим путешествовать по Европе."
+          }
+        ]
+      },
+      {
+        "word": "motivieren",
+        "translation": "мотивировать",
+        "examples": [
+          {
+            "de": "Die Lehrer motivieren die Schüler, ihr Bestes zu geben.",
+            "ru": "Учителя мотивируют учеников стараться изо всех сил."
+          }
+        ]
+      },
+      {
+        "word": "beitragen",
+        "translation": "внести свой вклад",
+        "examples": [
+          {
+            "de": "Jeder kann zur Entwicklung der Wirtschaft beitragen.",
+            "ru": "Каждый может внести свой вклад в развитие экономики."
+          }
+        ]
+      },
+      {
+        "word": "hoffen",
+        "translation": "надеяться",
+        "examples": [
+          {
+            "de": "Wir hoffen auf eine gute Zukunft.",
+            "ru": "Мы надеемся на хорошее будущее."
+          }
+        ]
+      },
+      {
+        "word": "sich bewerben",
+        "translation": "подавать заявление",
+        "examples": [
+          {
+            "de": "Ich möchte mich für diese Stelle bewerben.",
+            "ru": "Я хочу подать заявление на эту должность."
+          }
+        ]
+      },
+      {
+        "word": "einen akademischen Urlaub nehmen",
+        "translation": "взять академический отпуск",
+        "examples": [
+          {
+            "de": "Er hat beschlossen, einen akademischen Urlaub zu nehmen.",
+            "ru": "Он решил взять академический отпуск."
+          }
+        ]
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "Program Ferienbeschäftigung",
+        "translation": "программа занятости",
+        "examples": []
+      },
+      {
+        "word": "die Deutschkenntnisse",
+        "translation": "знание немецкого языка",
+        "examples": []
+      },
+      {
+        "word": "das Ausland",
+        "translation": "зарубеж, заграница",
+        "examples": []
+      },
+      {
+        "word": "der Verkäufer",
+        "translation": "продавец",
+        "examples": []
+      },
+      {
+        "word": "die Heimat",
+        "translation": "родина",
+        "examples": []
+      },
+      {
+        "word": "der Lebenslauf",
+        "translation": "биография",
+        "examples": []
+      },
+      {
+        "word": "unbezahlbar Erfahrung",
+        "translation": "бесценный опыт",
+        "examples": []
+      },
+      {
+        "word": "der entwickelten Staat der Welt",
+        "translation": "развитое государство в мире",
+        "examples": []
+      }
+    ],
+    "Фразы": [
+      {
+        "word": "mit gleichem Ziel",
+        "translation": "с той же целью, с одинаковой целью",
+        "examples": []
+      },
+      {
+        "word": "unterschiedlich",
+        "translation": "различный, разный",
+        "examples": []
+      },
+      {
+        "word": "am ersten Tag",
+        "translation": "в первый день",
+        "examples": []
+      },
+      {
+        "word": "denn",
+        "translation": "так как",
+        "examples": []
+      },
+      {
+        "word": "extra",
+        "translation": "отдельно, дополнительно",
+        "examples": []
+      },
+      {
+        "word": "im Kaufhaus arbeiten",
+        "translation": "работать в торговом доме",
+        "examples": []
+      },
+      {
+        "word": "pünktlich",
+        "translation": "пунктуально, вовремя",
+        "examples": []
+      },
+      {
+        "word": "Wirtschaft entwickeln",
+        "translation": "развивать экономику",
+        "examples": []
+      },
+      {
+        "word": "ein großer Vorteil",
+        "translation": "одно большое преимущество",
+        "examples": []
+      }
+    ]
+  },
+  "man_es_gibt": {
+    "Глаголы": [],
+    "Существительные": [],
+    "Прилагательные": [],
+    "Фразы": [
+      {
+        "word": "man",
+        "translation": "неопределённое 'кто-то', 'люди'",
+        "examples": [
+          {
+            "de": "Man sagt, dass das Wetter morgen schön wird.",
+            "ru": "Говорят, что завтра будет хорошая погода."
+          },
+          {
+            "de": "Man kann hier gut essen.",
+            "ru": "Здесь можно хорошо поесть."
+          },
+          {
+            "de": "Man sollte jeden Tag ein bisschen Sport machen.",
+            "ru": "Стоит каждый день немного заниматься спортом."
+          },
+          {
+            "de": "Man darf in diesem Bereich nicht rauchen.",
+            "ru": "В этом месте нельзя курить."
+          },
+          {
+            "de": "Man muss die Hausaufgaben rechtzeitig abgeben.",
+            "ru": "Нужно сдавать домашние задания вовремя."
+          },
+          {
+            "de": "Man hört oft interessante Geschichten in der Stadt.",
+            "ru": "В городе часто слышат интересные истории."
+          },
+          {
+            "de": "Man soll freundlich zu seinen Nachbarn sein.",
+            "ru": "Нужно быть дружелюбным с соседями."
+          },
+          {
+            "de": "Man kann in der Bibliothek ruhig lernen.",
+            "ru": "В библиотеке можно спокойно учиться."
+          }
+        ],
+        "explanation": "Man используется для обобщений, когда не важно, кто выполняет действие. Это похоже на английское 'one' или 'people'. Обычно глагол стоит в 3-м лице единственного числа."
+      },
+      {
+        "word": "es gibt",
+        "translation": "есть, имеется, существует",
+        "examples": [
+          {
+            "de": "Es gibt viele Bücher in der Bibliothek.",
+            "ru": "В библиотеке есть много книг."
+          },
+          {
+            "de": "Es gibt kein Problem.",
+            "ru": "Проблем нет."
+          },
+          {
+            "de": "Es gibt heute Abend eine Party.",
+            "ru": "Сегодня вечером есть вечеринка."
+          },
+          {
+            "de": "Es gibt einen schönen Park in der Nähe.",
+            "ru": "Недалеко есть красивый парк."
+          },
+          {
+            "de": "Es gibt viele Möglichkeiten, Deutsch zu lernen.",
+            "ru": "Есть много способов изучать немецкий."
+          },
+          {
+            "de": "Es gibt verschiedene Arten von Musik.",
+            "ru": "Существует несколько видов музыки."
+          },
+          {
+            "de": "Es gibt einen Grund, warum er nicht gekommen ist.",
+            "ru": "Есть причина, почему он не пришёл."
+          }
+        ],
+        "explanation": "Es gibt используется для указания существования чего-либо. Структура: 'es gibt + Akkusativ объект'. Можно использовать с ед. и мн. числом, а также с отрицанием 'kein'."
+      }
+    ]
+  },
+  "13.0": {
+    "Глаголы": [
+      {
+        "word": "stehen",
+        "translation": "стоять",
+        "examples": [
+          {
+            "de": "Ich stehe an der Haltestelle.",
+            "ru": "Я стою на автобусной остановке."
+          }
+        ]
+      },
+      {
+        "word": "bringen",
+        "translation": "приносить",
+        "examples": [
+          {
+            "de": "Kannst du mir bitte das Buch bringen?",
+            "ru": "Ты можешь принести мне книгу, пожалуйста?"
+          }
+        ]
+      },
+      {
+        "word": "vorkommen",
+        "translation": "происходить, случаться",
+        "examples": []
+      },
+      {
+        "word": "umziehen",
+        "translation": "переезжать",
+        "examples": []
+      },
+      {
+        "word": "besuchen",
+        "translation": "посещать, навещать",
+        "examples": [
+          {
+            "de": "Ich besuche meine Großeltern am Wochenende.",
+            "ru": "Я навещаю своих бабушку и дедушку на выходных."
+          }
+        ]
+      },
+      {
+        "word": "wohnen",
+        "translation": "жить",
+        "examples": [
+          {
+            "de": "Wo wohnst du?",
+            "ru": "Где ты живёшь?"
+          }
+        ]
+      },
+      {
+        "word": "ausverkaufen",
+        "translation": "распродавать",
+        "examples": [
+          {
+            "de": "Wir müssen die alten Produkte ausverkaufen.",
+            "ru": "Нам нужно распродать старые товары."
+          }
+        ]
+      },
+      {
+        "word": "aufwachsen",
+        "translation": "вырасти",
+        "examples": [
+          {
+            "de": "In welcher Stadt bist du aufgewachsen?",
+            "ru": "В каком городе ты вырос?"
+          }
+        ]
+      },
+      {
+        "word": "verkaufen",
+        "translation": "продавать",
+        "examples": [
+          {
+            "de": "Er verkauft sein Auto.",
+            "ru": "Он продаёт свою машину."
+          }
+        ]
+      },
+      {
+        "word": "frühstücken",
+        "translation": "завтракать",
+        "examples": [
+          {
+            "de": "Ich frühstücke jeden Morgen um 7 Uhr.",
+            "ru": "Я завтракаю каждое утро в 7 часов."
+          }
+        ]
+      },
+      {
+        "word": "spielen",
+        "translation": "играть",
+        "examples": [
+          {
+            "de": "Ich spiele Gitarre.",
+            "ru": "Я играю на гитаре."
+          }
+        ]
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "die Minute, die Minuten",
+        "translation": "минута",
+        "examples": []
+      },
+      {
+        "word": "der Moment",
+        "translation": "данное время, сейчас",
+        "examples": [
+          {
+            "de": "Im Moment habe ich keine Zeit.",
+            "ru": "Сейчас у меня нет времени."
+          }
+        ]
+      },
+      {
+        "word": "der Sommer",
+        "translation": "лето",
+        "examples": [
+          {
+            "de": "Im Sommer habe ich Ferien.",
+            "ru": "Летом у меня каникулы."
+          }
+        ]
+      },
+      {
+        "word": "der Monat",
+        "translation": "месяц",
+        "examples": [
+          {
+            "de": "Im nächsten Monat beginnt mein Deutschkurs.",
+            "ru": "В следующем месяце начнётся мой курс немецкого."
+          }
+        ]
+      },
+      {
+        "word": "der Zeitraum",
+        "translation": "период времени",
+        "examples": [
+          {
+            "de": "Für diesen Zeitraum habe ich keine Zeit.",
+            "ru": "На этот период у меня нет времени."
+          }
+        ]
+      },
+      {
+        "word": "das Wochenende",
+        "translation": "конец недели",
+        "examples": [
+          {
+            "de": "Ich arbeite nicht am Wochenende.",
+            "ru": "Я не работаю в выходные."
+          }
+        ]
+      },
+      {
+        "word": "die Zukunft",
+        "translation": "будущее",
+        "examples": [
+          {
+            "de": "In der Zukunft möchte ich viel reisen.",
+            "ru": "В будущем я хочу много путешествовать."
+          }
+        ]
+      },
+      {
+        "word": "der Abend",
+        "translation": "вечер",
+        "examples": [
+          {
+            "de": "Am Abend gehe ich spazieren.",
+            "ru": "Вечером я гуляю."
+          }
+        ]
+      },
+      {
+        "word": "der Mittag",
+        "translation": "полдень",
+        "examples": [
+          {
+            "de": "Ich esse normalerweise um Mittag.",
+            "ru": "Обычно я обедаю в полдень."
+          }
+        ]
+      },
+      {
+        "word": "Deutschunterricht",
+        "translation": "урок немецкого языка",
+        "examples": [
+          {
+            "de": "Der Deutschunterricht beginnt um 9 Uhr.",
+            "ru": "Урок немецкого языка начинается в 9 часов."
+          }
+        ]
+      },
+      {
+        "word": "der Geburtstag",
+        "translation": "день рождения",
+        "examples": [
+          {
+            "de": "Wann hast du Geburtstag?",
+            "ru": "Когда у тебя день рождения?"
+          }
+        ]
+      },
+      {
+        "word": "die Idee",
+        "translation": "идея",
+        "examples": [
+          {
+            "de": "Das ist eine tolle Idee!",
+            "ru": "Это отличная идея!"
+          }
+        ]
+      },
+      {
+        "word": "das Ende",
+        "translation": "конец",
+        "examples": [
+          {
+            "de": "Ich hoffe, dass das Ende gut wird.",
+            "ru": "Я надеюсь, что конец будет хорошим."
+          }
+        ]
+      },
+      {
+        "word": "die Tochter",
+        "translation": "дочь",
+        "examples": [
+          {
+            "de": "Meine Tochter ist fünf Jahre alt.",
+            "ru": "Моей дочери пять лет."
+          }
+        ]
+      },
+      {
+        "word": "die Freizeit",
+        "translation": "свободное время",
+        "examples": [
+          {
+            "de": "In meiner Freizeit lese ich gern Bücher.",
+            "ru": "В своё свободное время я люблю читать книги."
+          }
+        ]
+      },
+      {
+        "word": "die Schuhe",
+        "translation": "обувь",
+        "examples": [
+          {
+            "de": "Diese Schuhe sind sehr bequem.",
+            "ru": "Эти туфли очень удобные."
+          }
+        ]
+      },
+      {
+        "word": "der Film",
+        "translation": "фильм",
+        "examples": [
+          {
+            "de": "Der Film dauert zwei Stunden.",
+            "ru": "Фильм длится два часа."
+          }
+        ]
+      }
+    ],
+    "Местоимения и предлоги": [
+      {
+        "word": "euer",
+        "translation": "ваш",
+        "examples": [
+          {
+            "de": "Euer Auto ist neu.",
+            "ru": "Ваш автомобиль новый."
+          }
+        ]
+      },
+      {
+        "word": "an",
+        "translation": "на",
+        "examples": [
+          {
+            "de": "Das Bild hängt an der Wand.",
+            "ru": "Картина висит на стене."
+          }
+        ]
+      },
+      {
+        "word": "bei",
+        "translation": "у",
+        "examples": [
+          {
+            "de": "Ich bin bei meinem Freund.",
+            "ru": "Я у моего друга."
+          }
+        ]
+      },
+      {
+        "word": "seit",
+        "translation": "с (с каких-то пор)",
+        "examples": [
+          {
+            "de": "Seit wann lernst du Deutsch?",
+            "ru": "С какого времени ты учишь немецкий?"
+          }
+        ]
+      },
+      {
+        "word": "das",
+        "translation": "это",
+        "examples": [
+          {
+            "de": "Das ist mein Lieblingsfilm.",
+            "ru": "Это мой любимый фильм."
+          }
+        ]
+      },
+      {
+        "word": "sich",
+        "translation": "себя",
+        "examples": []
+      },
+      {
+        "word": "etwas",
+        "translation": "что-то",
+        "examples": []
+      },
+      {
+        "word": "jemand",
+        "translation": "кто-нибудь, кто-то",
+        "examples": [
+          {
+            "de": "Jemand möchte dir etwas sagen.",
+            "ru": "Кто-то хочет тебе что-то сказать."
+          }
+        ]
+      },
+      {
+        "word": "welcher",
+        "translation": "который, какой",
+        "examples": [
+          {
+            "de": "Welcher Student studiert gut?",
+            "ru": "Какой студент учится хорошо?"
+          }
+        ]
+      },
+      {
+        "word": "dieser",
+        "translation": "этот",
+        "examples": [
+          {
+            "de": "Dieser Lehrer erklärt alles sehr gut.",
+            "ru": "Этот учитель объясняет всё очень хорошо."
+          }
+        ]
+      },
+      {
+        "word": "oft",
+        "translation": "часто",
+        "examples": [
+          {
+            "de": "Wir essen oft Pizza.",
+            "ru": "Мы часто едим пиццу."
+          }
+        ]
+      }
+    ]
+  },
+  "13.2": {
+    "Глаголы": [
+      {
+        "word": "dolmetschen",
+        "translation": "переводить",
+        "examples": []
+      },
+      {
+        "word": "sich freuen",
+        "translation": "радоваться",
+        "examples": []
+      },
+      {
+        "word": "erlauben",
+        "translation": "позволять, разрешать",
+        "examples": []
+      },
+      {
+        "word": "beibringen",
+        "translation": "научить",
+        "examples": []
+      },
+      {
+        "word": "in den Kindergarten gehen",
+        "translation": "идти/ходить в детский сад",
+        "examples": []
+      },
+      {
+        "word": "als Arzt arbeiten",
+        "translation": "работать как врач",
+        "examples": []
+      }
+    ],
+    "Существительные": [
+      {
+        "word": "die Geschwister",
+        "translation": "братья и сестры",
+        "examples": []
+      },
+      {
+        "word": "der Simultandolmetscher",
+        "translation": "синхронный переводчик",
+        "examples": []
+      },
+      {
+        "word": "der Kindergarten",
+        "translation": "детский сад",
+        "examples": []
+      },
+      {
+        "word": "die Nichte",
+        "translation": "племянница",
+        "examples": []
+      },
+      {
+        "word": "der Neffe",
+        "translation": "племянник",
+        "examples": []
+      },
+      {
+        "word": "die Praxis",
+        "translation": "клиника",
+        "examples": []
+      },
+      {
+        "word": "der Zahnarzt",
+        "translation": "зубной врач",
+        "examples": []
+      },
+      {
+        "word": "die Süßigkeit, -en",
+        "translation": "сладость",
+        "examples": []
+      },
+      {
+        "word": "der Schwager",
+        "translation": "зять",
+        "examples": []
+      },
+      {
+        "word": "die Schwiegereltern",
+        "translation": "родители жены или мужа",
+        "examples": []
+      },
+      {
+        "word": "der Haushalt",
+        "translation": "домашнее хозяйство",
+        "examples": []
+      },
+      {
+        "word": "das Lieblingsfach",
+        "translation": "любимый предмет",
+        "examples": []
+      },
+      {
+        "word": "der Lieblingsverein",
+        "translation": "любимая команда",
+        "examples": []
+      }
+    ],
+    "Прилагательные / фразы": [
+      {
+        "word": "bisschen",
+        "translation": "немного, чуть-чуть",
+        "examples": []
+      },
+      {
+        "word": "verheiratet sein",
+        "translation": "быть замужем, быть женатым",
+        "examples": []
+      },
+      {
+        "word": "süß",
+        "translation": "сладкий",
+        "examples": []
+      },
+      {
+        "word": "streng",
+        "translation": "строгий",
+        "examples": []
+      },
+      {
+        "word": "einen starken Charakter haben",
+        "translation": "иметь сильный характер",
+        "examples": []
+      },
+      {
+        "word": "gut erzogen",
+        "translation": "хорошо воспитанный",
         "examples": []
       }
     ]
