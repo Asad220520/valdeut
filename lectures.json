@@ -4766,5 +4766,292 @@
         "examples": []
       }
     ]
+  },
+
+  "100": {
+    "Über mich und meine Familie": [
+      {
+        "word": "Über mich und meine Familie",
+        "translation": "О себе и семье",
+        "examples": [
+          {
+            "de": "Ich heiße Asad und komme aus Batken. Jetzt wohne ich in Bischkek. Ich studiere Deutsch. Mein Vater heißt Davran, er arbeitet als Lastwagenfahrer. Meine Mutter heißt Kanyshai, sie war Lehrerin. Meine Eltern wohnen in Batken. Meine Familie besteht aus 5 Personen: meine Eltern, meine Brüder Abbas und Arsen und ich. Der ältere Bruder arbeitet in Moskau, der jüngere studiert noch. Ich besuche meine Familie zweimal pro Jahr. In Bischkek wohne ich mit meinen Freunden. Ich lerne Deutsch seit 3 Wochen. Unser Kurs beginnt um 17:00 Uhr und endet um 19:20 Uhr.",
+            "ru": "Меня зовут Асад, я из Баткена. Сейчас я живу в Бишкеке. Я изучаю немецкий язык. Моего отца зовут Давран, он работает грузчиком. Мою мать зовут Канышай, она раньше была учительницей. Мои родители живут в Баткене. Моя семья состоит из 5 человек: родители, мои братья Аббас и Арсен и я. Старший брат работает в Москве, младший ещё учится. Я навещаю свою семью два раза в год. В Бишкеке я живу с друзьями. Я учу немецкий уже 3 недели. Наш курс начинается в 17:00 и заканчивается в 19:20."
+          },
+          {
+            "de": "Wie heißen Sie?",
+            "ru": "Как вас зовут?"
+          },
+          {
+            "de": "Ich heiße Asad.",
+            "ru": "Меня зовут Асад."
+          },
+          {
+            "de": "Woher kommen Sie?",
+            "ru": "Откуда вы?"
+          },
+          {
+            "de": "Ich komme aus Batken.",
+            "ru": "Я из Баткена."
+          },
+          {
+            "de": "Wo wohnen Sie?",
+            "ru": "Где вы живёте?"
+          },
+          {
+            "de": "Ich wohne in Bischkek.",
+            "ru": "Я живу в Бишкеке."
+          },
+          {
+            "de": "Was studieren Sie?",
+            "ru": "Что вы изучаете?"
+          },
+          {
+            "de": "Ich studiere Deutsch.",
+            "ru": "Я изучаю немецкий язык."
+          },
+          {
+            "de": "Wie heißen Ihre Eltern?",
+            "ru": "Как зовут ваших родителей?"
+          },
+          {
+            "de": "Mein Vater heißt Davran, meine Mutter heißt Kanyshai.",
+            "ru": "Моего отца зовут Давран, мою мать — Канышай."
+          },
+          {
+            "de": "Wo wohnen Ihre Eltern?",
+            "ru": "Где живут ваши родители?"
+          },
+          {
+            "de": "Sie wohnen in Batken.",
+            "ru": "Они живут в Баткене."
+          },
+          {
+            "de": "Wo arbeiten Ihre Eltern?",
+            "ru": "Где работают ваши родители?"
+          },
+          {
+            "de": "Mein Vater arbeitet als Lastwagenfahrer, meine Mutter ist Lehrerin.",
+            "ru": "Мой отец работает грузчиком, моя мать учительница."
+          },
+          {
+            "de": "Aus wie vielen Personen besteht Ihre Familie?",
+            "ru": "Из скольких человек состоит ваша семья?"
+          },
+          {
+            "de": "Meine Familie besteht aus 5 Personen.",
+            "ru": "Моя семья состоит из 5 человек."
+          },
+          {
+            "de": "Wie heißen Ihre Geschwister?",
+            "ru": "Как зовут ваших братьев?"
+          },
+          {
+            "de": "Meine Brüder heißen Abbas und Arsen.",
+            "ru": "Моих братьев зовут Аббас и Арсен."
+          },
+          {
+            "de": "Was machen Ihre Geschwister?",
+            "ru": "Что делают ваши братья?"
+          },
+          {
+            "de": "Der ältere Bruder arbeitet in Moskau, der jüngere studiert noch.",
+            "ru": "Старший брат работает в Москве, младший ещё учится."
+          },
+          {
+            "de": "Wie oft besuchen Sie Ihre Familie?",
+            "ru": "Как часто вы навещаете семью?"
+          },
+          {
+            "de": "Ich besuche meine Familie zweimal pro Jahr.",
+            "ru": "Я навещаю семью два раза в год."
+          },
+          {
+            "de": "Mit wem wohnen Sie?",
+            "ru": "С кем вы живёте?"
+          },
+          {
+            "de": "Ich wohne mit meinen Freunden.",
+            "ru": "Я живу с друзьями."
+          },
+          {
+            "de": "Wie lange lernen Sie schon Deutsch?",
+            "ru": "Как долго вы учите немецкий?"
+          },
+          {
+            "de": "Ich lerne Deutsch seit 3 Wochen.",
+            "ru": "Я учу немецкий уже 3 недели."
+          },
+          {
+            "de": "Wann beginnt Ihr Deutschkurs?",
+            "ru": "Когда начинается ваш курс немецкого?"
+          },
+          {
+            "de": "Unser Kurs beginnt um 17:00 Uhr.",
+            "ru": "Наш курс начинается в 17:00."
+          },
+          {
+            "de": "Wann endet der Deutschkurs?",
+            "ru": "Когда заканчивается курс немецкого?"
+          },
+          {
+            "de": "Unser Kurs endet um 19:20 Uhr.",
+            "ru": "Наш курс заканчивается в 19:20."
+          }
+        ]
+      }
+    ],
+    "Mein Arbeitstag": [
+      {
+        "word": "Mein Arbeitstag",
+        "translation": "Мой рабочий день",
+        "examples": [
+          {
+            "de": "Mein Arbeitstag ist flexibel, weil ich zu Hause arbeite. Ich stehe meistens um 8 Uhr auf, frühstücke und beginne dann am Computer zu arbeiten. Wichtig ist, alles bis zum Termin fertig zu machen. Meine Mittagspause ist um 13 Uhr, ich esse zu Hause und mache manchmal einen kurzen Spaziergang. Der Arbeitstag endet, wenn die Aufgaben erledigt sind. Nach der Arbeit entspanne ich mich, schaue Filme oder spiele am Computer. Abends koche ich oder esse mit meiner Familie. Vor dem Schlafen lese ich oder höre Musik, und gegen Mitternacht gehe ich ins Bett.",
+            "ru": "Мой рабочий день гибкий, потому что я работаю дома. Обычно я встаю в 8 часов, завтракаю и начинаю работать за компьютером. Главное — всё закончить к сроку. Мой обеденный перерыв в час дня, я обедаю дома и иногда немного гуляю. Рабочий день заканчивается, когда задания выполнены. После работы я отдыхаю, смотрю фильмы или играю на компьютере. Вечером я готовлю или ужинаю с семьёй. Перед сном я читаю или слушаю музыку и около полуночи ложусь спать."
+          },
+          {
+            "de": "Wie sieht Ihr Arbeitstag aus?",
+            "ru": "Как проходит ваш рабочий день?"
+          },
+          {
+            "de": "Mein Arbeitstag ist flexibel, weil ich zu Hause arbeite.",
+            "ru": "Мой рабочий день гибкий, потому что я работаю дома."
+          },
+          {
+            "de": "Um wie viel Uhr stehen Sie auf?",
+            "ru": "Во сколько вы встаёте?"
+          },
+          {
+            "de": "Ich stehe  um 8 Uhr auf.",
+            "ru": "Я  встаю в 8 часов."
+          },
+          {
+            "de": "Wann endet Ihr Arbeitstag?",
+            "ru": "Когда заканчивается ваш рабочий день?"
+          },
+          {
+            "de": "Mein Arbeitstag endet, wenn die Aufgaben erledigt sind.",
+            "ru": "Мой рабочий день заканчивается, когда задания выполнены."
+          },
+          {
+            "de": "Was machen Sie nach der Arbeit?",
+            "ru": "Что вы делаете после работы?"
+          },
+          {
+            "de": "Nach der Arbeit entspanne ich mich, schaue Filme oder spiele am Computer.",
+            "ru": "После работы я отдыхаю, смотрю фильмы или играю на компьютере."
+          }
+        ]
+      }
+    ],
+    "Warum möchte ich nach Deutschland?": [
+      {
+        "word": "Warum möchte ich nach Deutschland?",
+        "translation": "Почему я хочу поехать в Германию?",
+        "examples": [
+          {
+            "de": "Ich möchte nach Deutschland, um dort zu studieren. Dieses Programm habe ich im Internet kennengelernt. In meiner Familie war noch niemand in Deutschland. Wenn ich mein Studium beendet habe, möchte ich in meinem Beruf arbeiten und vielleicht meinen Master in Deutschland machen. Deutsch brauche ich für mein Studium und meine Arbeit. Neue Chancen und Erfahrungen motivieren mich beim Deutschlernen. Ich motiviere mich, indem ich jeden Tag ein bisschen lerne. Freunde haben mir dieses Programm empfohlen. In fünf Jahren sehe ich mich in einem guten Job. Nach dem Studium möchte ich eine gute Arbeit finden und mein Wissen praktisch anwenden.",
+            "ru": "Я хочу поехать в Германию, чтобы там учиться. Эту программу я узнал в интернете. В моей семье ещё никто не был в Германии. Когда я закончу учёбу, я хочу работать по профессии и, возможно, учиться в магистратуре в Германии. Немецкий язык мне нужен для учёбы и работы. Новые возможности и опыт мотивируют меня в изучении немецкого. Я мотивирую себя тем, что учусь каждый день понемногу. Эту программу мне посоветовали друзья. Через пять лет я вижу себя на хорошей работе. После окончания учёбы я хочу найти хорошую работу и применять свои знания на практике."
+          },
+          {
+            "de": "Warum wollen Sie nach Deutschland?",
+            "ru": "Почему вы хотите поехать в Германию?"
+          },
+          {
+            "de": "Ich möchte in Deutschland studieren.",
+            "ru": "Я хочу учиться в Германии."
+          },
+          {
+            "de": "Wo haben Sie über dieses Programm gehört?",
+            "ru": "Где вы узнали об этой программе?"
+          },
+          {
+            "de": "Ich habe Informationen im Internet gefunden.",
+            "ru": "Я нашёл информацию в интернете."
+          },
+          {
+            "de": "Wer aus Ihrer Familie war schon in Deutschland?",
+            "ru": "Кто из вашей семьи уже был в Германии?"
+          },
+          {
+            "de": "Noch niemand war in Deutschland.",
+            "ru": "Ещё никто не был в Германии."
+          },
+          {
+            "de": "Was werden Sie machen, wenn Sie fertig studiert haben?",
+            "ru": "Что вы будете делать, когда закончите учёбу?"
+          },
+          {
+            "de": "Ich möchte in meinem Beruf arbeiten.",
+            "ru": "Я хочу работать по профессии."
+          },
+          {
+            "de": "Wo möchten Sie Ihren Master machen?",
+            "ru": "Где вы хотите учиться в магистратуре?"
+          },
+          {
+            "de": "Ich möchte meinen Master in Deutschland machen.",
+            "ru": "Я хочу учиться в магистратуре в Германии."
+          },
+          {
+            "de": "Wofür brauchen Sie Deutsch?",
+            "ru": "Для чего вам нужен немецкий язык?"
+          },
+          {
+            "de": "Ich brauche Deutsch für Studium und Arbeit.",
+            "ru": "Мне нужен немецкий для учёбы и работы."
+          },
+          {
+            "de": "Was motiviert Sie beim Deutschlernen?",
+            "ru": "Что вас мотивирует в изучении немецкого языка?"
+          },
+          {
+            "de": "Neue Chancen und Erfahrungen motivieren mich.",
+            "ru": "Новые возможности и опыт меня мотивируют."
+          },
+          {
+            "de": "Wie motivieren Sie sich?",
+            "ru": "Как вы себя мотивируете?"
+          },
+          {
+            "de": "Ich lerne jeden Tag ein bisschen.",
+            "ru": "Я учусь каждый день понемногу."
+          },
+          {
+            "de": "Wie sind Sie auf die Idee gekommen, sich für das Programm zu registrieren?",
+            "ru": "Как у вас появилась идея зарегистрироваться на эту программу?"
+          },
+          {
+            "de": "Freunde haben mir dieses Programm empfohlen.",
+            "ru": "Друзья мне это посоветовали."
+          },
+          {
+            "de": "Wo sehen Sie sich in 5 Jahren?",
+            "ru": "Где вы видите себя через 5 лет?"
+          },
+          {
+            "de": "Ich sehe mich in einem guten Job.",
+            "ru": "Я вижу себя на хорошей работе."
+          },
+          {
+            "de": "Was sind Ihre Pläne nach dem Studium?",
+            "ru": "Каковы ваши планы после окончания учёбы?"
+          },
+          {
+            "de": "Ich möchte eine gute Arbeit finden.",
+            "ru": "Я хочу найти хорошую работу."
+          },
+          {
+            "de": "Was machen Sie mit Ihrem Studium, wenn Sie beendet haben?",
+            "ru": "Что вы будете делать со своей учёбой, когда закончите её?"
+          },
+          {
+            "de": "Ich möchte mein Wissen praktisch anwenden.",
+            "ru": "Я хочу применять свои знания на практике."
+          }
+        ]
+      }
+    ]
   }
 }
